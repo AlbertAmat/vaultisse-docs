@@ -1,0 +1,78 @@
+/**
+ * Reuses the Vaultisse app's two themes for the docs site: light mode uses
+ * the app's warm "beige" theme, dark mode uses its "library" (dark/blue)
+ * theme. Color values mirror client/src/assets/styles/theme.scss and
+ * client/src/plugins/vuetify.ts in the main app repo, mapped onto
+ * VitePress's own CSS custom properties.
+ */
+
+:root {
+    --vp-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --vp-font-family-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* Light — "beige" theme */
+:root {
+    --vp-c-bg: #f7f2ea;
+    --vp-c-bg-alt: #f1e9da;
+    --vp-c-bg-soft: #f1e9da;
+    --vp-c-bg-elv: #ffffff;
+
+    --vp-c-text-1: #2f2a22;
+    --vp-c-text-2: #57503f;
+    --vp-c-text-3: #7d7364;
+
+    --vp-c-border: #e7ddcb;
+    --vp-c-divider: #e7ddcb;
+    --vp-c-gutter: #e7ddcb;
+
+    --vp-c-brand-1: #c97b3d;
+    --vp-c-brand-2: #b56a30;
+    --vp-c-brand-3: #a35a26;
+    --vp-c-brand-soft: rgba(201, 123, 61, 0.16);
+
+    --vp-custom-block-tip-border: transparent;
+    --vp-custom-block-tip-text: var(--vp-c-text-1);
+    --vp-custom-block-tip-bg: #f5e3d0;
+}
+
+/* Dark — "library" theme */
+.dark {
+    --vp-c-bg: #0a0e17;
+    --vp-c-bg-alt: #0b111c;
+    --vp-c-bg-soft: #111a2b;
+    --vp-c-bg-elv: #0d1420;
+
+    --vp-c-text-1: #e8ecf3;
+    --vp-c-text-2: #b3bccb;
+    --vp-c-text-3: #8b94a7;
+
+    --vp-c-border: rgba(255, 255, 255, 0.12);
+    --vp-c-divider: rgba(255, 255, 255, 0.09);
+    --vp-c-gutter: rgba(255, 255, 255, 0.09);
+
+    --vp-c-brand-1: #4c9ff5;
+    --vp-c-brand-2: #1c7ff1;
+    --vp-c-brand-3: #0f66c9;
+    --vp-c-brand-soft: rgba(120, 220, 246, 0.16);
+
+    --vp-custom-block-tip-border: transparent;
+    --vp-custom-block-tip-text: var(--vp-c-text-1);
+    --vp-custom-block-tip-bg: rgba(120, 220, 246, 0.14);
+}
+
+/* Literary serif for headings in the light theme, a cooler geometric sans
+   in the dark theme — matches the app's per-theme display font. */
+.vp-doc h1,
+.vp-doc h2,
+.VPHero .name,
+.VPHero .text {
+    font-family: "Fraunces", "Georgia", serif;
+}
+
+.dark .vp-doc h1,
+.dark .vp-doc h2,
+.dark .VPHero .name,
+.dark .VPHero .text {
+    font-family: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+}

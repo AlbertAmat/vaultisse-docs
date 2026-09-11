@@ -95,6 +95,15 @@ export default defineConfig({
         ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
         ["meta", { property: "og:type", content: "website" }],
         ["meta", { property: "og:site_name", content: "Vaultisse Docs" }],
+        ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+        ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
+        [
+            "link",
+            {
+                rel: "stylesheet",
+                href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
+            },
+        ],
     ],
     themeConfig: sharedThemeConfig,
 
