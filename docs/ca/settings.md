@@ -1,5 +1,7 @@
 # Configuració del compte
 
+![La pàgina de Configuració](/screenshots/settings.png)
+
 Obre el teu menú de perfil, a la cantonada superior dreta, i tria **Configuració** per gestionar el teu compte.
 
 ## El meu perfil

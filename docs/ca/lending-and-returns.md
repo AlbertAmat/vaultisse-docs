@@ -1,5 +1,7 @@
 # Préstecs i devolucions
 
+![La pàgina de Préstecs](/screenshots/loans.png)
+
 Vaultisse fa el seguiment dels préstecs a nivell d'un **exemplar** físic concret, no del títol del llibre — així sempre saps exactament quin exemplar té cada client.
 
 ## Deixar un exemplar en préstec

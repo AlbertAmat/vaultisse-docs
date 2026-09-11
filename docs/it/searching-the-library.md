@@ -1,5 +1,7 @@
 # Cercare in biblioteca
 
+![La pagina Biblioteca, con il catalogo completo in una griglia di copertine](/screenshots/library-search.png)
+
 La pagina **Biblioteca** è il tuo catalogo completo — ogni libro che hai mai aggiunto, in un unico elenco ricercabile e filtrabile.
 
 ## Ricerca

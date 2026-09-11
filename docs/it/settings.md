@@ -1,5 +1,7 @@
 # Impostazioni account
 
+![La pagina Impostazioni](/screenshots/settings.png)
+
 Apri il tuo menu profilo nell'angolo in alto a destra e scegli **Impostazioni** per gestire il tuo account.
 
 ## Il mio profilo

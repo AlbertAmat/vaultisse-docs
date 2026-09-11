@@ -1,5 +1,7 @@
 # Locations
 
+![The Locations page](/screenshots/locations.png)
+
 Locations represent the physical places where your books live — a shelf, a room, a branch, or anything else that makes sense for your collection.
 
 ## Managing locations

@@ -1,5 +1,7 @@
 # Clienti e gruppi
 
+![La pagina Clienti](/screenshots/customers.png)
+
 La pagina **Clienti** gestisce le persone che possono prendere in prestito i libri, e ti permette di organizzarle in gruppi (ad esempio per classe, anno o reparto).
 
 ## Scheda Clienti

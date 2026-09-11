@@ -1,5 +1,7 @@
 # Préstamos y devoluciones
 
+![La página de Préstamos](/screenshots/loans.png)
+
 Vaultisse registra los préstamos a nivel de **ejemplar** físico individual, no del título del libro — así siempre sabes exactamente qué ejemplar tiene cada cliente.
 
 ## Prestar un ejemplar

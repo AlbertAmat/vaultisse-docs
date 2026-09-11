@@ -1,5 +1,7 @@
 # Ubicazioni
 
+![La pagina Ubicazioni](/screenshots/locations.png)
+
 Le ubicazioni rappresentano i luoghi fisici dove si trovano i tuoi libri — uno scaffale, una stanza, una sede, o qualsiasi altra cosa abbia senso per la tua collezione.
 
 ## Gestire le ubicazioni

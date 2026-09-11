@@ -1,5 +1,7 @@
 # Dashboard
 
+![The Vaultisse dashboard](/screenshots/dashboard.png)
+
 The Dashboard is the first thing you see when you open Vaultisse. It gives you an at-a-glance summary of your entire collection.
 
 ## This month, and your shelf

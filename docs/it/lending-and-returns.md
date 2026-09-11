@@ -1,5 +1,7 @@
 # Prestiti e restituzioni
 
+![La pagina Prestiti](/screenshots/loans.png)
+
 Vaultisse traccia i prestiti a livello di singola **copia** fisica, non del titolo del libro — così sai sempre esattamente quale copia ha un cliente.
 
 ## Prestare una copia

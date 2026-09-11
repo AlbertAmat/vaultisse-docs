@@ -1,5 +1,7 @@
 # Afegir llibres
 
+![El diàleg per afegir un llibre per ISBN](/screenshots/add-book-dialog.png)
+
 Hi ha dues maneres d'afegir un nou títol al teu catàleg, totes dues disponibles des del botó **Afegir llibre** a la pàgina de [Biblioteca](./searching-the-library).
 
 ## Afegir per ISBN (recomanat)

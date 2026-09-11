@@ -1,5 +1,7 @@
 # Ubicacions
 
+![La pàgina d'Ubicacions](/screenshots/locations.png)
+
 Les ubicacions representen els llocs físics on es troben els teus llibres — un prestatge, una sala, una seu, o qualsevol altra cosa que tingui sentit per a la teva col·lecció.
 
 ## Gestionar ubicacions

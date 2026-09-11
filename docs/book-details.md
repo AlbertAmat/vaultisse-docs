@@ -1,5 +1,7 @@
 # Book details & stock
 
+![A book's detail page, with its information and stock table](/screenshots/book-details.png)
+
 Every book has its own page with two parts: the book's **information** and the list of its physical **copies** (called "stock").
 
 ## Book information

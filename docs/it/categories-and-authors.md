@@ -1,5 +1,7 @@
 # Categorie e autori
 
+![La pagina Categorie](/screenshots/categories.png)
+
 Categorie e autori ti aiutano a classificare e cercare nel tuo catalogo. Entrambi si gestiscono nello stesso modo semplice.
 
 ## Categorie

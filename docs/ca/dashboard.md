@@ -1,5 +1,7 @@
 # Tauler de control
 
+![El tauler de control de Vaultisse](/screenshots/dashboard.png)
+
 El Tauler de control és el primer que veus quan obres Vaultisse. Et dona un resum ràpid de tota la teva col·lecció.
 
 ## Aquest mes, i el teu prestatge

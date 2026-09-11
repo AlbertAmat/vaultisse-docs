@@ -1,5 +1,7 @@
 # Imprimir etiquetes
 
+![La cua d'impressió, amb una etiqueta a punt per imprimir](/screenshots/print-queue.png)
+
 Cada exemplar físic d'un llibre té un **codi d'estoc** amb codi de barres únic, que imprimeixes en una etiqueta i enganxes al mateix llibre. Escanejar aquesta etiqueta és com l'aplicació reconeix un exemplar concret més endavant — en retornar-lo, moure'l o cercar-lo.
 
 ## La cua d'impressió

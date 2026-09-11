@@ -1,5 +1,7 @@
 # Benvingut/da a Vaultisse
 
+![El tauler de control de Vaultisse, amb el menú de navegació a l'esquerra](/screenshots/dashboard.png)
+
 Vaultisse és una manera senzilla de catalogar tots els llibres físics que tens o gestiones, saber exactament on és cada exemplar i portar el control de qui l'ha agafat en préstec.
 
 Tant si portes la biblioteca d'una escola, una petita col·lecció d'aula o els prestatges de casa teva, Vaultisse et dona un únic lloc on:

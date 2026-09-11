@@ -1,5 +1,7 @@
 # Welcome to Vaultisse
 
+![The Vaultisse dashboard, with the navigation menu on the left](/screenshots/dashboard.png)
+
 Vaultisse is a simple way to catalog every physical book you own or manage, know exactly where each copy lives, and keep track of who has borrowed it.
 
 Whether you're running a school library, a small classroom collection, or your own home shelves, Vaultisse gives you one place to:

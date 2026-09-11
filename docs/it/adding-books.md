@@ -1,5 +1,7 @@
 # Aggiungere libri
 
+![La finestra per aggiungere un libro tramite ISBN](/screenshots/add-book-dialog.png)
+
 Ci sono due modi per aggiungere un nuovo titolo al tuo catalogo, entrambi disponibili dal pulsante **Aggiungi libro** nella pagina [Biblioteca](./searching-the-library).
 
 ## Aggiungi tramite ISBN (consigliato)

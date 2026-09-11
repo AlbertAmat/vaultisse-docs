@@ -1,5 +1,7 @@
 # Printing labels
 
+![The print queue, with a label ready to print](/screenshots/print-queue.png)
+
 Every physical copy of a book has a unique barcode **stock code**, which you print onto a label and stick to the book itself. Scanning that label is how the app recognizes a specific copy later — when returning it, moving it, or looking it up.
 
 ## The print queue

@@ -1,5 +1,7 @@
 # Impresión de etiquetas
 
+![La cola de impresión, con una etiqueta lista para imprimir](/screenshots/print-queue.png)
+
 Cada ejemplar físico de un libro tiene un **código de stock** único en forma de código de barras, que imprimes en una etiqueta y pegas en el propio libro. Escanear esa etiqueta es cómo la aplicación reconoce más tarde un ejemplar concreto — al devolverlo, moverlo o buscarlo.
 
 ## La cola de impresión

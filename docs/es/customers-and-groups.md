@@ -1,5 +1,7 @@
 # Clientes y grupos
 
+![La página de Clientes](/screenshots/customers.png)
+
 La página de **Clientes** gestiona a las personas que pueden pedir libros prestados y te permite organizarlas en grupos (por ejemplo, por clase, curso o departamento).
 
 ## Pestaña Clientes

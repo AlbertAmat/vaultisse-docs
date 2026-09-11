@@ -1,5 +1,7 @@
 # Stampare le etichette
 
+![La coda di stampa, con un'etichetta pronta per la stampa](/screenshots/print-queue.png)
+
 Ogni copia fisica di un libro ha un **codice di stock** con codice a barre univoco, che stampi su un'etichetta e attacchi al libro stesso. Scansionare quell'etichetta è il modo in cui l'app riconosce una copia specifica in seguito — quando la restituisci, la sposti o la cerchi.
 
 ## La coda di stampa

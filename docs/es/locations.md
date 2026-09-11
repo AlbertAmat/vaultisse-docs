@@ -1,5 +1,7 @@
 # Ubicaciones
 
+![La página de Ubicaciones](/screenshots/locations.png)
+
 Las ubicaciones representan los lugares físicos donde se encuentran tus libros — una estantería, una sala, una sede o cualquier otra cosa que tenga sentido para tu colección.
 
 ## Gestionar ubicaciones

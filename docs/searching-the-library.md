@@ -1,5 +1,7 @@
 # Searching the library
 
+![The Library page, showing the full catalog as a grid of book covers](/screenshots/library-search.png)
+
 The **Library** page is your full catalog — every book you've ever added, in one searchable, filterable list.
 
 ## Searching

@@ -1,5 +1,7 @@
 # Detalle del libro y stock
 
+![La página de detalle de un libro, con su información y la tabla de stock](/screenshots/book-details.png)
+
 Cada libro tiene su propia página con dos partes: la **información** del libro y la lista de sus **ejemplares** físicos (llamados "stock").
 
 ## Información del libro

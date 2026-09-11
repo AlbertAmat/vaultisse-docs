@@ -1,5 +1,7 @@
 # Cercar a la biblioteca
 
+![La pàgina Biblioteca, amb el catàleg complet en una graella de portades](/screenshots/library-search.png)
+
 La pàgina **Biblioteca** és el teu catàleg complet — tots els llibres que has afegit mai, en una única llista que es pot cercar i filtrar.
 
 ## Cercar

@@ -1,5 +1,7 @@
 # Categories & authors
 
+![The Categories page](/screenshots/categories.png)
+
 Categories and authors help you classify and search your catalog. Both are managed the same simple way.
 
 ## Categories

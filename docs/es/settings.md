@@ -1,5 +1,7 @@
 # Configuración de la cuenta
 
+![La página de Configuración](/screenshots/settings.png)
+
 Abre tu menú de perfil en la esquina superior derecha y elige **Configuración** para gestionar tu propia cuenta.
 
 ## Mi perfil

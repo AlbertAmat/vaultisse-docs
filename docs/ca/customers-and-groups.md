@@ -1,5 +1,7 @@
 # Clients i grups
 
+![La pàgina de Clients](/screenshots/customers.png)
+
 La pàgina de **Clients** gestiona les persones que poden agafar llibres en préstec, i et permet organitzar-les en grups (per exemple, per classe, curs o departament).
 
 ## Pestanya de Clients

@@ -1,5 +1,7 @@
 # Customers & groups
 
+![The Customers page](/screenshots/customers.png)
+
 The **Customers** page manages the people who can borrow books, and lets you organize them into groups (for example, by class, grade, or department).
 
 ## Customers tab

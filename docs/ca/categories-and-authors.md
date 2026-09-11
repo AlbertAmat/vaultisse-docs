@@ -1,5 +1,7 @@
 # Categories i autors
 
+![La pàgina de Categories](/screenshots/categories.png)
+
 Les categories i els autors t'ajuden a classificar i cercar el teu catàleg. Totes dues es gestionen de la mateixa manera senzilla.
 
 ## Categories

@@ -1,5 +1,7 @@
 # Detalls del llibre i estoc
 
+![La pàgina de detalls d'un llibre, amb la seva informació i la taula d'estoc](/screenshots/book-details.png)
+
 Cada llibre té la seva pròpia pàgina amb dues parts: la **informació** del llibre i la llista dels seus **exemplars** físics (anomenats "estoc").
 
 ## Informació del llibre

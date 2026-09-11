@@ -1,5 +1,7 @@
 # Account settings
 
+![The Settings page](/screenshots/settings.png)
+
 Open your profile menu in the top-right corner and choose **Settings** to manage your own account.
 
 ## My profile

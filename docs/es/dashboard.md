@@ -1,5 +1,7 @@
 # Panel de control
 
+![El panel de control de Vaultisse](/screenshots/dashboard.png)
+
 El Panel de control es lo primero que ves al abrir Vaultisse. Te ofrece un resumen general de toda tu colección de un vistazo.
 
 ## Este mes, y tu estantería
