@@ -2,21 +2,21 @@
 
 ![La pagina dei dettagli di un libro, con le informazioni e la tabella delle copie](/screenshots/book-details.png)
 
-Ogni libro ha la propria pagina con due parti: le **informazioni** del libro e l'elenco delle sue **copie** fisiche (chiamate "stock").
+Ogni libro ha la propria pagina con due parti: le **informazioni** del libro e l'elenco delle sue **copie** fisiche (chiamate "stock"). La pagina si apre in sola lettura — clicca su **Modifica**, nell'angolo in alto a destra, per cambiare qualcosa.
 
 ## Informazioni sul libro
 
-In cima alla pagina puoi modificare tutto ciò che riguarda il titolo stesso:
+In modalità di visualizzazione vedi il **nome**, l'**ISBN**, la **categoria**, la **lingua**, il **formato**, il **numero di pagine**, l'**editore**, la **data di pubblicazione**, gli **autori** e la **descrizione** del libro, con un trattino al posto di ciò che è rimasto vuoto.
 
-- **Nome** e **ISBN**
-- **Categoria** e **Lingua** (scegli dagli elenchi che gestisci in [Categorie](./categories-and-authors))
-- **Formato** (es. brossura, copertina rigida) e **numero di pagine**
-- **Autori** — inizia a digitare un nome per cercare tra gli autori esistenti, oppure aggiungine uno nuovo al volo
-- **Editore** e **data di pubblicazione**
-- **Descrizione**
-- **Immagine di copertina**, mostrata a destra
+Clicca su **Modifica** per trasformare tutto questo in un modulo compilabile:
 
-Le modifiche non vengono salvate finché non clicchi su **Salva** nell'angolo in alto a destra, che diventa attivo solo dopo aver apportato una modifica. L'**icona del cestino** accanto elimina completamente il libro — ti verrà chiesta prima una conferma.
+![La pagina dei dettagli del libro in modalità modifica](/screenshots/book-edit-mode.png)
+
+- **Categoria** e **Lingua** si scelgono dagli elenchi che gestisci in [Categorie](./categories-and-authors).
+- **Autori** — inizia a digitare un nome per cercare tra gli autori esistenti, oppure aggiungine uno nuovo al volo.
+- **Immagine di copertina** — mostrata a destra; passaci sopra con il mouse per cambiarla.
+
+Durante la modifica, i pulsanti in alto a destra diventano **Annulla** (scarta le modifiche) e **Salva** (che diventa attivo solo dopo aver effettivamente cambiato qualcosa). L'**icona del cestino** accanto elimina completamente il libro, in entrambe le modalità — ti verrà chiesta prima una conferma.
 
 ## Capire lo stock
 
@@ -25,15 +25,19 @@ Un titolo può esistere nel tuo catalogo con **zero, una o più copie fisiche**.
 - **Codice** — l'identificativo univoco stampato sull'etichetta con codice a barre di quella copia.
 - **Ubicazione** — dove si trova quella specifica copia (vedi [Ubicazioni](./locations)).
 - **Stato**:
-  - 🔵 **Prenotato** — attualmente prestato a un cliente.
+  - 🔵 **Prenotato** — attualmente prestato a un cliente. Disponibile solo se sul tuo account è attivo [Prestiti](./settings#funzionalita).
   - 🟢 **Disponibile** — sullo scaffale, pronto per essere preso in prestito.
   - ⚪ **Non disponibile** — temporaneamente fuori circolazione.
   - 🟠 **Danneggiato** — danneggiato e non prestabile.
-- **Prenotato da** — il cliente che attualmente ha quella copia, se il suo stato è Prenotato.
+- **Prenotato da** — il cliente che attualmente ha quella copia, mostrato solo quando Prestiti è attivo.
 
 ## Aggiungere una copia
 
-Clicca su **Aggiungi** sopra la tabella delle Copie, scegli uno **stato** e un'**ubicazione**, e (se lo segni come Prenotato) seleziona quale **cliente** lo ha. Puoi:
+Clicca su **Aggiungi** sopra la tabella delle Copie, scegli uno **stato** e un'**ubicazione**, e (se Prestiti è attivo e lo stai segnando come Prenotato) seleziona quale **cliente** lo ha.
+
+![La finestra per aggiungere una copia](/screenshots/add-stock-dialog.png)
+
+Puoi:
 
 - **Aggiungi** — creare solo la copia, oppure
 - **Aggiungi e stampa** — crearla e accodare immediatamente la sua etichetta con codice a barre per la stampa (vedi [Stampare le etichette](./printing-labels)).
@@ -48,10 +52,15 @@ Usa le azioni della riga a destra di ogni voce di stock:
 
 > **Suggerimento:** per prestare una copia a qualcuno, imposta il suo stato su **Prenotato** e scegli qui un cliente, oppure usa il flusso di prestito di gruppo dalla riga di un cliente — vedi [Prestiti e restituzioni](./lending-and-returns).
 
-## Backup del file digitale
+## File digitali del libro
 
-Accanto all'immagine di copertina puoi, facoltativamente, salvare una copia di backup del **file epub o pdf** del libro — utile se lo hai scaricato e trasferito su un e-reader, dato che a quel punto il lettore diventa l'unico posto in cui vive quella copia. Clicca o trascina e rilascia un file (massimo 100MB) per caricarlo; un libro conserva al massimo un file, quindi caricarne uno nuovo sostituisce quello precedente.
+Imposta il **Formato** di un libro su **Elettronico** per rivelare, accanto all'immagine di copertina, una scheda **File digitali** in cui salvare una copia di backup dei file veri e propri — utile se li hai scaricati e trasferiti su un e-reader, dato che a quel punto il lettore diventa l'unico posto in cui vivono.
 
-Una volta caricato, puoi **scaricarlo** di nuovo in qualsiasi momento (ad esempio se perdi o ripristini il tuo e-reader) o **eliminarlo** (con conferma). Questo è pensato puramente come backup personale di file di cui hai già i diritti — non come un luogo da cui procurarsi libri da altre fonti.
+![La scheda File digitali, con un'area per trascinare e rilasciare i file](/screenshots/ebook-files.png)
 
-Per i libri con formato **Elettronico**, il file caricato mostra anche un'anteprima proprio sotto la scheda di caricamento: i PDF si aprono con il visualizzatore integrato del browser, mentre gli EPUB vengono mostrati pagina per pagina con i pulsanti **‹**/**›** per sfogliarli — senza bisogno di scaricare il file solo per controllarlo.
+- Clicca su **Aggiungi**, oppure trascina e rilascia, per caricare un file **epub, pdf, mobi o azw3**.
+- A differenza del resto del libro, ogni tipo di file viene conservato in modo indipendente — puoi avere un epub *e* un pdf salvati come backup per lo stesso libro contemporaneamente; caricare un nuovo file di un tipo già presente sostituisce solo quello.
+- Ogni file caricato ha la propria riga con icona, nome del file, dimensione e data di caricamento, oltre alle azioni di **anteprima** (icona a forma di occhio, apre una finestra — i PDF e gli EPUB si sfogliano lì, con un pulsante per la modalità a schermo intero), **download** ed **eliminazione**.
+- La dimensione massima consentita dipende da come è configurato il tuo server Vaultisse — chiedi a chi lo gestisce se un caricamento viene rifiutato perché troppo grande.
+
+Questo è pensato puramente come backup personale di file di cui hai già i diritti — non come un luogo da cui procurarsi libri da altre fonti.

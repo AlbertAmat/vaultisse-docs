@@ -11,6 +11,8 @@ La página de **Categorías** muestra todas las categorías que has creado (por 
 - Haz clic en **Añadir** para crear una nueva categoría.
 - Usa ✏️ para renombrarla o editarla, o 🗑️ para eliminarla.
 
+![El diálogo Añadir categoría](/screenshots/category-dialog.png)
+
 Una vez creada, una categoría queda disponible en el desplegable **Categoría** de la [página de detalle de cada libro](./book-details), y como filtro al [buscar en la biblioteca](./searching-the-library).
 
 ## Autores

@@ -20,7 +20,7 @@ Al seleccionar un tema, se aplica al instante. Justo debajo, el interruptor **Me
 
 ## Funciones
 
-El interruptor **Préstamos** activa las páginas de **Préstamos** y **Clientes** (y sus entradas en el menú lateral) — desactivado por defecto para las cuentas que solo hacen seguimiento de una colección personal. Volver a desactivarlo oculta ambas páginas; no elimina ningún préstamo o cliente existente.
+El interruptor **Préstamos** activa las páginas de **Préstamos** y **Clientes** (y sus entradas en el menú lateral) — desactivado por defecto para las cuentas que solo hacen seguimiento de una colección personal. Volver a desactivarlo oculta ambas páginas; no elimina ningún préstamo o cliente existente. Igual que el tema, este interruptor se aplica al instante — no depende del botón **Guardar** de más abajo.
 
 ## Idioma y región
 
@@ -31,6 +31,8 @@ Elige tu **idioma** y **región** preferidos para la interfaz de la aplicación.
 - Actualiza la **dirección de correo electrónico** asociada a tu cuenta.
 - Haz clic en **Cambiar contraseña** para establecer una nueva contraseña.
 - En **Autenticación de dos factores**, haz clic en **Activar** para exigir un código de una aplicación autenticadora al iniciar sesión: escanea el código QR (o introduce su clave manualmente) con una app como Google Authenticator, Authy o 1Password, y confirma con el código de 6 dígitos que muestre. Recibirás un conjunto de **códigos de respaldo** de un solo uso — guárdalos en un lugar seguro, ya que solo se muestran una vez y te permiten iniciar sesión si alguna vez pierdes el acceso a tu aplicación autenticadora. Una vez configurada, una etiqueta la marca como **Activada**; haz clic en **Desactivar** y confirma tu contraseña para volver a apagarla.
+
+  ![El diálogo de configuración de la autenticación de dos factores, con un código QR](/screenshots/2fa-setup-dialog.png)
 - Usa **Eliminar cuenta** si necesitas eliminar tu cuenta de forma permanente. Esta acción no se puede deshacer, así que se te pedirá confirmación antes.
 
 ## Sesiones activas

@@ -23,14 +23,16 @@ El menú de navegación de la izquierda es tu punto de partida para cada parte d
 | **Biblioteca** | Busca, explora y añade libros a tu catálogo. |
 | **Ubicaciones** | Las estanterías, salas o sedes donde se guardan los ejemplares. |
 | **Categorías** | Los temas o géneros que usas para clasificar los libros. |
-| **Clientes** | Las personas que pueden pedir libros prestados y los grupos a los que pertenecen. |
 | **Autores** | La lista de autores vinculados a tus libros. |
+| **Clientes** y **Préstamos** | Las personas que pueden pedir libros prestados, los grupos a los que pertenecen y qué hay prestado ahora mismo. Solo aparecen si activas **Préstamos** en [Configuración](./settings#funciones) — ocultos por defecto para las cuentas que solo llevan el control de una colección personal. |
 
 En la parte superior de la pantalla siempre encontrarás una **barra de búsqueda** para ir directamente a un libro, y tu **menú de perfil** (arriba a la derecha) para la configuración de la cuenta y para cerrar sesión.
 
 En la parte inferior del menú, el icono de la **cola de impresión** muestra cuántas etiquetas de código de barras están pendientes de imprimir — consulta [Impresión de etiquetas](./printing-labels) para más detalles.
 
 > **Consejo:** La mayoría de las pantallas que escanean códigos de barras (añadir un libro, añadir stock, devolver un libro) aceptan tanto **escaneo con cámara** como **escritura manual del código**, así que nunca te quedarás bloqueado si no tienes escáner o cámara disponible.
+
+El pie de página de cada pantalla enlaza a la **Política de privacidad**, los **Términos de servicio** y la **Política de cookies** de Vaultisse — vale la pena echarles un vistazo si estás configurando la aplicación para que la usen otras personas.
 
 ## Por dónde seguir
 

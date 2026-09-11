@@ -17,9 +17,11 @@ You can queue a label for printing in a couple of places:
 
 ## Printing
 
+![The printer queue dialog, with a label ready to print](/screenshots/print-queue-dialog.png)
+
 Open the print queue and:
 
-- Click **Print** to send every queued label to your printer.
+- Click **Print** to download a ready-to-print PDF (one label per page) with every queued label — open it and print it from your own PDF viewer.
 - Click **Clear queue** to remove everything without printing.
 
 Each label includes the book's name and a scannable barcode of its stock code, ready to be scanned again later with the [barcode scanner](./adding-books) built into the app — for example when returning a book or adding it to a customer.

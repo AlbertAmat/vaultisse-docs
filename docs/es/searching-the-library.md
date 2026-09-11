@@ -2,27 +2,38 @@
 
 ![La página Biblioteca, con el catálogo completo en forma de cuadrícula de portadas](/screenshots/library-search.png)
 
-La página **Biblioteca** es tu catálogo completo — todos los libros que has añadido alguna vez, en una lista única con búsqueda y filtros.
+La página **Biblioteca** es tu catálogo completo — todos los libros que has añadido alguna vez, en una cuadrícula única con búsqueda y filtros.
 
 ## Búsqueda
 
 Usa el cuadro de búsqueda en la parte superior de la pantalla en cualquier momento. Escribe un título, autor o palabra clave y pulsa Intro, o haz clic en el icono de código de barras dentro del cuadro de búsqueda para **escanear el código de barras de un libro** con la cámara de tu dispositivo en lugar de escribirlo.
 
-## Vista de cuadrícula o de tabla
+## Ordenar y agrupar
 
-Usa el botón de alternancia junto al botón **Añadir libro** para cambiar entre:
+A la derecha de los resultados, el desplegable **Ordenar por** organiza la cuadrícula por nombre (A-Z o Z-A) o por fecha de incorporación (más recientes o más antiguos primero).
 
-- **Vista de cuadrícula** — las portadas de los libros se muestran como tarjetas, que cargan más resultados automáticamente al desplazarte (desplazamiento infinito).
-- **Vista de tabla** — una lista compacta con columnas para portada, nombre, ISBN, categoría e idioma, paginada con la navegación estándar de tablas.
+![El desplegable de ordenación abierto sobre la cuadrícula de libros](/screenshots/library-sort-menu.png)
+
+El pequeño icono con forma que hay junto a él activa **agrupar por categoría** — en lugar de una cuadrícula larga, los libros se dividen en una sección por categoría (más una sección "Sin categoría"), cada una con su propio encabezado y contador.
+
+![La biblioteca agrupada en secciones por categoría](/screenshots/library-grouped.png)
+
+Los resultados se cargan a medida que te desplazas (desplazamiento infinito) — no hay una vista de tabla aparte ni números de página que pulsar.
 
 ## Filtrado
 
-Haz clic en **Añadir filtro** encima de los resultados para acotar la lista, por ejemplo para mostrar:
+Haz clic en el icono de embudo dentro del cuadro de búsqueda, desde cualquier parte de la aplicación, para abrir el menú de filtros:
+
+![El menú de filtros, con casillas, un desplegable de categoría y un rango de fechas de subida](/screenshots/library-filter-menu.png)
 
 - **Sin stock** — libros que actualmente no tienen ejemplares físicos registrados.
 - **Con stock** — libros que tienen al menos un ejemplar.
+- **En préstamo** — libros con al menos un ejemplar actualmente prestado.
+- **Recientes** — libros añadidos hace poco.
+- **Categoría** — acota la lista a una sola categoría.
+- **Fecha de subida** — un rango de fechas **Desde**/**Hasta** sobre cuándo se añadió el libro a tu catálogo; haz clic en **Aplicar** para usarlo, o en **Vaciar** para quitarlo.
 
-Los filtros activos aparecen como chips que puedes eliminar individualmente haciendo clic en la **×**.
+Abrir el menú de filtros desde cualquier otra página (no solo Biblioteca) te lleva a la página Biblioteca con tu selección ya aplicada. Los filtros activos, la categoría y el rango de fechas aparecen como chips bajo la barra de herramientas — haz clic en la **×** de un chip para eliminarlo individualmente.
 
 ## Añadir un libro desde aquí
 
@@ -30,4 +41,4 @@ El botón **Añadir libro** de la parte superior derecha te permite añadir un n
 
 ## Abrir un libro
 
-Haz clic en cualquier libro (su portada en la vista de cuadrícula, o su nombre en la vista de tabla) para abrir su [página de detalle](./book-details), donde puedes editar su información y gestionar sus ejemplares físicos.
+Haz clic en la portada de cualquier libro para abrir su [página de detalle](./book-details), donde puedes editar su información y gestionar sus ejemplares físicos.

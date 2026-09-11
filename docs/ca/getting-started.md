@@ -23,14 +23,16 @@ El menú de navegació de l'esquerra és el punt de partida per a totes les secc
 | **Biblioteca** | Cercar, explorar i afegir llibres al catàleg. |
 | **Ubicacions** | Els prestatges, sales o seus on es guarden els exemplars. |
 | **Categories** | Els temes o gèneres que fas servir per classificar els llibres. |
-| **Clients** | Les persones que poden agafar llibres en préstec i els grups a què pertanyen. |
 | **Autors** | La llista d'autors vinculats als teus llibres. |
+| **Clients** i **Préstecs** | Les persones que poden agafar llibres en préstec, els grups a què pertanyen i què tens actualment en préstec. Només es mostren un cop actives els **Préstecs** a [Configuració](./settings#funcionalitats) — amagats per defecte per als comptes que només fan seguiment d'una col·lecció personal. |
 
 A la part superior de la pantalla sempre trobaràs una **barra de cerca** per anar directament a un llibre, i el **menú de perfil** (a dalt a la dreta) per a la configuració del compte i per tancar la sessió.
 
 A la part inferior del menú, la icona de la **cua d'impressió** mostra quantes etiquetes de codi de barres estan pendents d'imprimir — consulta [Imprimir etiquetes](./printing-labels) per a més detalls.
 
 > **Consell:** La majoria de pantalles que escanegen codis de barres (afegir un llibre, afegir estoc, retornar un llibre) accepten tant l'**escaneig amb càmera** com **escriure el codi a mà**, així que mai et quedaràs bloquejat/da si no tens un escàner o una càmera disponibles.
+
+El peu de pàgina, present a totes les pàgines, enllaça a la **Política de privacitat**, les **Condicions del servei** i la **Política de cookies** de Vaultisse — val la pena donar-hi un cop d'ull si estàs configurant l'aplicació perquè la faci servir més gent.
 
 ## On anar ara
 

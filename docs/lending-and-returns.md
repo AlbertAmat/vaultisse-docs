@@ -19,7 +19,9 @@ While a copy is Booked, it shows up:
 
 ## Returning books
 
-When a copy comes back, use the **Return books** button — available on both the [Dashboard](./dashboard) and the [Customers](./customers-and-groups) page.
+When a copy comes back, use the **Return books** button — available on the [Dashboard](./dashboard), the [Customers](./customers-and-groups) page, and the Loans page itself.
+
+![The Return books dialog, scanning or typing a stock code](/screenshots/return-books-dialog.png)
 
 1. Click **Return books** to open the dialog.
 2. For each returning copy, **scan its barcode label** with your camera or **type its stock code**.
@@ -41,6 +43,8 @@ It's the fastest way to answer "what's out right now, and to whom" without going
 ## Exporting a loan report
 
 Click **Generate report** in the top-right corner of the Loans page to export an Excel (.xlsx) file of loan history — including copies that have already been returned, not just what's currently out.
+
+![The Loan report dialog](/screenshots/loan-report-dialog.png)
 
 1. Pick a **From** and **To** date — required, since the report always covers a date range.
 2. Optionally narrow it down to one **Group** or **Customer**.

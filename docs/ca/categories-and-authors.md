@@ -11,6 +11,8 @@ La pàgina de **Categories** llista totes les categories que has creat (per exem
 - Fes clic a **Afegir** per crear una nova categoria.
 - Fes servir ✏️ per canviar-ne el nom o editar-la, o 🗑️ per eliminar-la.
 
+![El diàleg Afegir categoria](/screenshots/category-dialog.png)
+
 Un cop creada, una categoria queda disponible al desplegable de **Categoria** a la [pàgina de detalls de cada llibre](./book-details), i com a filtre en [cercar a la biblioteca](./searching-the-library).
 
 ## Autors

@@ -20,7 +20,7 @@ En seleccionar un tema, s'aplica a l'instant. Just a sota, l'interruptor **Menú
 
 ## Funcionalitats
 
-L'interruptor **Préstecs** activa les pàgines de **Préstecs** i **Clients** (i les seves entrades al menú lateral) — desactivat per defecte per als comptes que només fan seguiment d'una col·lecció personal. Tornar-lo a desactivar amaga totes dues pàgines; no elimina cap préstec o client existent.
+L'interruptor **Préstecs** activa les pàgines de **Préstecs** i **Clients** (i les seves entrades al menú lateral) — desactivat per defecte per als comptes que només fan seguiment d'una col·lecció personal. Tornar-lo a desactivar amaga totes dues pàgines; no elimina cap préstec o client existent. Igual que el tema, aquest interruptor s'aplica a l'instant — no depèn del botó **Desar** de més avall.
 
 ## Idioma i regió
 
@@ -31,6 +31,8 @@ Tria el teu **idioma** i **regió** preferits per a la interfície de l'aplicaci
 - Actualitza l'**adreça electrònica** associada al teu compte.
 - Fes clic a **Canviar contrasenya** per establir una contrasenya nova.
 - A **Autenticació de dos factors**, fes clic a **Activar** per exigir un codi d'una aplicació autenticadora en iniciar sessió: escaneja el codi QR (o introdueix la seva clau manualment) amb una app com Google Authenticator, Authy o 1Password, i confirma amb el codi de 6 xifres que mostri. Rebràs un conjunt de **codis de reserva** d'un sol ús — desa'ls en un lloc segur, ja que només es mostren una vegada i et permeten iniciar sessió si mai perds l'accés a la teva aplicació autenticadora. Un cop configurada, una etiqueta la marca com a **Activada**; fes clic a **Desactivar** i confirma la teva contrasenya per tornar-la a apagar.
+
+  ![El diàleg de configuració de l'autenticació de dos factors, amb un codi QR](/screenshots/2fa-setup-dialog.png)
 - Fes servir **Eliminar compte** si necessites eliminar el teu compte de manera permanent. Aquesta acció no es pot desfer, així que se't demanarà confirmació prèviament.
 
 ## Sessions actives

@@ -27,6 +27,8 @@ Mentre ogni ISBN viene elaborato, ne vedrai lo stato accanto nell'elenco:
 
 Usa questa opzione quando un libro non ha ISBN, o quando la ricerca automatica non è riuscita a trovarlo.
 
+![La finestra per aggiungere un libro manualmente](/screenshots/add-book-manually.png)
+
 1. Scegli **Aggiungi libro manualmente** dal menu **Aggiungi libro**.
 2. Facoltativamente trascina e rilascia un'**immagine di copertina**.
 3. Compila il **nome** (obbligatorio), una **descrizione** e l'**ISBN** se ne hai uno.

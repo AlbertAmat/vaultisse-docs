@@ -27,6 +27,8 @@ While each ISBN is processed you'll see its status next to it in the list:
 
 Use this when a book has no ISBN, or the automatic lookup couldn't find it.
 
+![The Add book manually dialog](/screenshots/add-book-manually.png)
+
 1. Choose **Add book manually** from the **Add book** menu.
 2. Optionally drag and drop a **cover image**.
 3. Fill in the **name** (required), a **description**, and the **ISBN** if you have one.

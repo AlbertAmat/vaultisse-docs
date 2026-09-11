@@ -20,7 +20,7 @@ Selecting a theme applies it right away. Below it, the **Compact menu** switch c
 
 ## Features
 
-The **Leasing** switch turns on the **Loans** and **Customers** pages (and their entries in the sidebar) — off by default for accounts that just track a personal collection. Turning it off again hides both pages; it doesn't delete any existing loans or customers.
+The **Leasing** switch turns on the **Loans** and **Customers** pages (and their entries in the sidebar) — off by default for accounts that just track a personal collection. Turning it off again hides both pages; it doesn't delete any existing loans or customers. Like the theme, this switch applies immediately — it isn't held back by the **Save** button below.
 
 ## Language & region
 
@@ -31,6 +31,8 @@ Choose your preferred **language** and **region** for the app's interface.
 - Update the **email address** associated with your account.
 - Click **Change password** to set a new password.
 - Under **Two-factor authentication**, click **Enable** to require a code from an authenticator app when signing in: scan the QR code (or enter its key manually) with an app like Google Authenticator, Authy, or 1Password, then confirm with the 6-digit code it shows. You'll get a set of one-time **backup codes** — save them somewhere safe, since they're shown only once and let you sign in if you ever lose access to your authenticator app. Once set up, a badge shows it as **Enabled**; click **Disable** and confirm your password to turn it back off.
+
+  ![The two-factor authentication setup dialog, with a QR code](/screenshots/2fa-setup-dialog.png)
 - Use **Delete account** if you need to permanently remove your account. This can't be undone, so you'll be asked to confirm first.
 
 ## Active sessions

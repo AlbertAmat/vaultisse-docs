@@ -19,7 +19,9 @@ Mentre un exemplar està Reservat, apareix:
 
 ## Retornar llibres
 
-Quan un exemplar es retorna, fes servir el botó **Retornar llibres** — disponible tant al [Tauler de control](./dashboard) com a la pàgina de [Clients](./customers-and-groups).
+Quan un exemplar es retorna, fes servir el botó **Retornar llibres** — disponible al [Tauler de control](./dashboard), a la pàgina de [Clients](./customers-and-groups) i a la pròpia pàgina de Préstecs.
+
+![El diàleg Retornar llibres, escanejant o escrivint un codi d'estoc](/screenshots/return-books-dialog.png)
 
 1. Fes clic a **Retornar llibres** per obrir el diàleg.
 2. Per a cada exemplar que es retorna, **escaneja la seva etiqueta de codi de barres** amb la càmera o **escriu el seu codi d'estoc**.
@@ -41,6 +43,8 @@ La pàgina de **Préstecs** et dona una única llista de tots els exemplars actu
 ## Exportar un informe de préstecs
 
 Fes clic a **Generar informe**, a la cantonada superior dreta de la pàgina de Préstecs, per exportar un fitxer Excel (.xlsx) amb l'historial de préstecs — incloent-hi els exemplars ja retornats, no només els que estan en préstec ara mateix.
+
+![El diàleg Informe de préstecs](/screenshots/loan-report-dialog.png)
 
 1. Tria una data **Des de** i **Fins a** — obligatòries, ja que l'informe sempre cobreix un interval de dates.
 2. Opcionalment, restringeix-lo a un **Grup** o **Client** concret.

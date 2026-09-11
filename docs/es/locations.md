@@ -6,11 +6,13 @@ Las ubicaciones representan los lugares físicos donde se encuentran tus libros 
 
 ## Gestionar ubicaciones
 
-La página de **Ubicaciones** muestra todas las ubicaciones con su **descripción** y el **número total de libros** almacenados actualmente allí.
+La página de **Ubicaciones** muestra cada ubicación como su propia tarjeta, con su **descripción** y el **número total de libros** almacenados actualmente allí.
+
+![El diálogo Añadir ubicación](/screenshots/location-dialog.png)
 
 - Haz clic en **Añadir** para crear una nueva ubicación, dándole un nombre y una descripción.
 - Usa ✏️ para editar una ubicación, o 🗑️ para eliminarla (con confirmación).
-- Expande la fila de una ubicación para ver los **libros almacenados allí**.
+- Expande la tarjeta de una ubicación para ver los **libros almacenados allí**.
 
 ## Usar ubicaciones
 

@@ -17,9 +17,11 @@ Puedes poner en cola una etiqueta para imprimir en un par de lugares:
 
 ## Imprimir
 
+![El diálogo de la cola de impresión, con una etiqueta lista para imprimir](/screenshots/print-queue-dialog.png)
+
 Abre la cola de impresión y:
 
-- Haz clic en **Imprimir** para enviar todas las etiquetas en cola a tu impresora.
+- Haz clic en **Imprimir** para descargar un PDF listo para imprimir (una etiqueta por página) con todas las etiquetas en cola — ábrelo e imprímelo desde tu propio visor de PDF.
 - Haz clic en **Vaciar cola** para eliminarlas todas sin imprimir.
 
 Cada etiqueta incluye el nombre del libro y un código de barras escaneable de su código de stock, listo para volver a escanearse más adelante con el [escáner de código de barras](./adding-books) integrado en la aplicación — por ejemplo, al devolver un libro o al añadirlo a un cliente.

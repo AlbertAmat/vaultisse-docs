@@ -19,7 +19,9 @@ Mientras un ejemplar está Reservado, aparece:
 
 ## Devolver libros
 
-Cuando un ejemplar vuelve, usa el botón **Devolver libros** — disponible tanto en el [Panel de control](./dashboard) como en la página de [Clientes](./customers-and-groups).
+Cuando un ejemplar vuelve, usa el botón **Devolver libros** — disponible en el [Panel de control](./dashboard), en la página de [Clientes](./customers-and-groups) y en la propia página de Préstamos.
+
+![El diálogo Devolver libros, escaneando o escribiendo un código de stock](/screenshots/return-books-dialog.png)
 
 1. Haz clic en **Devolver libros** para abrir el diálogo.
 2. Para cada ejemplar que se devuelve, **escanea su etiqueta de código de barras** con la cámara o **escribe su código de stock**.
@@ -41,6 +43,8 @@ Es la forma más rápida de saber "qué hay fuera ahora mismo, y con quién" sin
 ## Exportar un informe de préstamos
 
 Haz clic en **Generar informe**, en la esquina superior derecha de la página de Préstamos, para exportar un archivo Excel (.xlsx) con el historial de préstamos — incluidos los ejemplares ya devueltos, no solo los que están prestados ahora.
+
+![El diálogo Informe de préstamos](/screenshots/loan-report-dialog.png)
 
 1. Elige una fecha **Desde** y **Hasta** — obligatorias, ya que el informe siempre cubre un rango de fechas.
 2. Opcionalmente, restríngelo a un **Grupo** o **Cliente** concreto.

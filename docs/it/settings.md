@@ -20,7 +20,7 @@ Selezionare un tema lo applica subito. Poco sotto, l'interruttore **Menu compatt
 
 ## Funzionalità
 
-L'interruttore **Prestiti** attiva le pagine **Prestiti** e **Clienti** (e le relative voci nel menu laterale) — disattivato per impostazione predefinita per gli account che tengono traccia solo di una collezione personale. Disattivarlo di nuovo nasconde entrambe le pagine; non elimina prestiti o clienti esistenti.
+L'interruttore **Prestiti** attiva le pagine **Prestiti** e **Clienti** (e le relative voci nel menu laterale) — disattivato per impostazione predefinita per gli account che tengono traccia solo di una collezione personale. Disattivarlo di nuovo nasconde entrambe le pagine; non elimina prestiti o clienti esistenti. Come il tema, questo interruttore si applica immediatamente — non dipende dal pulsante **Salva** più in basso.
 
 ## Lingua e regione
 
@@ -31,6 +31,8 @@ Scegli la tua **lingua** e **regione** preferite per l'interfaccia dell'app.
 - Aggiorna l'**indirizzo email** associato al tuo account.
 - Clicca su **Cambia password** per impostare una nuova password.
 - In **Autenticazione a due fattori**, clicca su **Attiva** per richiedere un codice da un'app di autenticazione all'accesso: scansiona il codice QR (o inserisci la sua chiave manualmente) con un'app come Google Authenticator, Authy o 1Password, poi conferma con il codice a 6 cifre mostrato. Riceverai una serie di **codici di backup** monouso — conservali in un luogo sicuro, dato che vengono mostrati una sola volta e ti permettono di accedere se mai perdessi l'accesso alla tua app di autenticazione. Una volta configurata, un'etichetta la mostra come **Attiva**; clicca su **Disattiva** e conferma la tua password per disattivarla di nuovo.
+
+  ![La finestra di configurazione dell'autenticazione a due fattori, con un codice QR](/screenshots/2fa-setup-dialog.png)
 - Usa **Elimina account** se hai bisogno di rimuovere definitivamente il tuo account. Questa azione non può essere annullata, quindi ti verrà chiesta prima una conferma.
 
 ## Sessioni attive

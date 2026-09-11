@@ -11,6 +11,8 @@ The **Categories** page lists every category you've created (for example, *Ficti
 - Click **Add** to create a new category.
 - Use ✏️ to rename or edit it, or 🗑️ to delete it.
 
+![The Add category dialog](/screenshots/category-dialog.png)
+
 Once created, a category becomes available in the **Category** dropdown on every [book's detail page](./book-details), and as a filter when [searching the library](./searching-the-library).
 
 ## Authors

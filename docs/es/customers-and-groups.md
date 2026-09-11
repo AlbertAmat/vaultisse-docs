@@ -2,25 +2,33 @@
 
 ![La página de Clientes](/screenshots/customers.png)
 
-La página de **Clientes** gestiona a las personas que pueden pedir libros prestados y te permite organizarlas en grupos (por ejemplo, por clase, curso o departamento).
+La página de **Clientes** gestiona a las personas que pueden pedir libros prestados y te permite organizarlas en grupos (por ejemplo, por clase, curso o departamento). Esta página — junto con [Préstamos](./lending-and-returns) — solo aparece una vez que activas **Préstamos** en [Configuración](./settings#funciones).
 
 ## Pestaña Clientes
 
-La tabla principal muestra a todos los clientes con sus **etiquetas**, el **número total de libros** que tienen actualmente en préstamo y a qué **grupo** pertenecen (si tienen alguno).
+Cada cliente aparece como su propia tarjeta, con su **nombre**, el **grupo** al que pertenece (o "Sin grupo") y cuántos **libros** tiene actualmente en préstamo.
 
 - Haz clic en **Añadir** para crear un nuevo cliente.
 - Usa el icono ✏️ para editar un cliente, o 🗑️ para eliminarlo (con confirmación).
-- Haz clic en la flecha de expandir de la fila para mostrar los **libros prestados** de ese cliente en una tabla debajo.
+- Haz clic en la flecha de expandir de la fila para mostrar los **libros prestados** de ese cliente debajo.
+
+![El diálogo Añadir cliente](/screenshots/customer-dialog.png)
+
+> **Nota:** Si tu cuenta está registrada como institución pública, el diálogo de añadir/editar cliente te advierte que no introduzcas datos personales sensibles — usa un código de estudiante o un identificador que solo tú puedas reconocer, en lugar de un nombre completo.
 
 ## Pestaña Grupos
 
 Cambia a la pestaña **Grupos** para gestionar los grupos de clientes. Todo cliente sin grupo aparece bajo un contenedor integrado llamado **Sin grupo**, para que nadie quede oculto nunca.
+
+![La pestaña Grupos, con cada grupo y su número de clientes](/screenshots/customer-groups.png)
 
 Para cada grupo puedes ver su **nombre**, **descripción** y **número total de clientes**, y:
 
 - Haz clic en **Añadir** para crear un nuevo grupo.
 - Expande un grupo para ver y gestionar sus **miembros**.
 - ✏️ edita o 🗑️ elimina un grupo (eliminarlo no elimina a sus clientes — simplemente quedan sin asignar).
+
+![El diálogo Añadir grupo](/screenshots/customer-group-dialog.png)
 
 ### Mover clientes entre grupos
 

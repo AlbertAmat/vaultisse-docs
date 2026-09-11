@@ -6,11 +6,13 @@ Locations represent the physical places where your books live — a shelf, a roo
 
 ## Managing locations
 
-The **Locations** page lists every location with its **description** and the **total number of books** currently stored there.
+The **Locations** page lists every location as its own card, with its **description** and the **total number of books** currently stored there.
+
+![The Add location dialog](/screenshots/location-dialog.png)
 
 - Click **Add** to create a new location, giving it a name and description.
 - Use ✏️ to edit a location, or 🗑️ to delete it (with confirmation).
-- Expand a location's row to see the **books stored there**.
+- Expand a location's card to see the **books stored there**.
 
 ## Using locations
 

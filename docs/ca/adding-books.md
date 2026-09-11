@@ -27,6 +27,8 @@ Mentre es processa cada ISBN, en veuràs l'estat al costat a la llista:
 
 Fes servir aquesta opció quan un llibre no tingui ISBN, o quan la cerca automàtica no l'hagi trobat.
 
+![El diàleg Afegir llibre manualment](/screenshots/add-book-manually.png)
+
 1. Tria **Afegir llibre manualment** al menú **Afegir llibre**.
 2. Opcionalment, arrossega i deixa anar una **imatge de portada**.
 3. Omple el **nom** (obligatori), una **descripció** i l'**ISBN** si en tens un.

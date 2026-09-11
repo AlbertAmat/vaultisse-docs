@@ -23,14 +23,16 @@ Il menu di navigazione a sinistra è il punto di partenza per ogni sezione dell'
 | **Biblioteca** | Cerca, sfoglia e aggiungi libri al tuo catalogo. |
 | **Ubicazioni** | Gli scaffali, le stanze o le sedi dove sono conservate le copie. |
 | **Categorie** | Gli argomenti o i generi che usi per classificare i libri. |
-| **Clienti** | Le persone che possono prendere in prestito i libri, e i gruppi a cui appartengono. |
 | **Autori** | L'elenco degli autori collegati ai tuoi libri. |
+| **Clienti** e **Prestiti** | Le persone che possono prendere in prestito i libri, i gruppi a cui appartengono, e cosa è attualmente fuori. Compaiono solo quando **Prestiti** è attivo in [Impostazioni](./settings#funzionalita) — nascosti per impostazione predefinita per gli account che tengono traccia solo di una collezione personale. |
 
 In alto sullo schermo trovi sempre una **barra di ricerca** per andare direttamente a un libro, e il tuo **menu profilo** (in alto a destra) per le impostazioni dell'account e per uscire.
 
 In fondo al menu, l'icona della **coda di stampa** mostra quante etichette con codice a barre sono in attesa di essere stampate — per i dettagli vedi [Stampare le etichette](./printing-labels).
 
 > **Suggerimento:** la maggior parte delle schermate che scansionano codici a barre (aggiungere un libro, aggiungere una copia, restituire un libro) accetta sia la **scansione tramite fotocamera** sia la **digitazione manuale del codice**, quindi non resterai mai bloccato se uno scanner o una fotocamera non sono disponibili.
+
+Il piè di pagina in fondo a ogni schermata rimanda all'**Informativa sulla privacy**, ai **Termini di servizio** e alla **Cookie policy** di Vaultisse — vale la pena darci un'occhiata se stai configurando l'app per altre persone.
 
 ## Da dove cominciare
 

@@ -11,6 +11,8 @@ La pagina **Categorie** elenca ogni categoria che hai creato (ad esempio, *Narra
 - Clicca su **Aggiungi** per creare una nuova categoria.
 - Usa ✏️ per rinominarla o modificarla, o 🗑️ per eliminarla.
 
+![La finestra per aggiungere una categoria](/screenshots/category-dialog.png)
+
 Una volta creata, una categoria diventa disponibile nel menu a tendina **Categoria** su ogni [pagina di dettaglio del libro](./book-details), e come filtro quando [cerchi in biblioteca](./searching-the-library).
 
 ## Autori

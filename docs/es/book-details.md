@@ -2,21 +2,21 @@
 
 ![La página de detalle de un libro, con su información y la tabla de stock](/screenshots/book-details.png)
 
-Cada libro tiene su propia página con dos partes: la **información** del libro y la lista de sus **ejemplares** físicos (llamados "stock").
+Cada libro tiene su propia página con dos partes: la **información** del libro y la lista de sus **ejemplares** físicos (llamados "stock"). La página se abre en modo de solo lectura — haz clic en **Editar**, en la esquina superior derecha, para cambiar cualquier cosa.
 
 ## Información del libro
 
-En la parte superior de la página puedes editar todo lo relacionado con el título en sí:
+En modo de vista ves el **nombre**, el **ISBN**, la **categoría**, el **idioma**, el **formato**, el **número de páginas**, la **editorial**, la **fecha de publicación**, los **autores** y la **descripción** del libro, con un guion donde no se haya rellenado algo.
 
-- **Nombre** e **ISBN**
-- **Categoría** e **Idioma** (elige de las listas que gestionas en [Categorías](./categories-and-authors))
-- **Formato** (por ejemplo, tapa blanda, tapa dura) y **número de páginas**
-- **Autores** — empieza a escribir un nombre para buscar entre los autores existentes, o añade uno nuevo sobre la marcha
-- **Editorial** y **fecha de publicación**
-- **Descripción**
-- **Imagen de portada**, mostrada a la derecha
+Haz clic en **Editar** para convertir todo eso en un formulario editable:
 
-Los cambios no se guardan hasta que hagas clic en **Guardar**, en la esquina superior derecha, que solo se activa una vez has hecho alguna edición. El **icono de papelera** junto a él elimina el libro por completo — se te pedirá confirmación antes.
+![La página de detalle del libro en modo de edición](/screenshots/book-edit-mode.png)
+
+- **Categoría** e **Idioma** se eligen de las listas que gestionas en [Categorías](./categories-and-authors).
+- **Autores** — empieza a escribir un nombre para buscar entre los autores existentes, o añade uno nuevo sobre la marcha.
+- **Imagen de portada** — se muestra a la derecha; pasa el ratón por encima para cambiarla.
+
+Mientras editas, los botones de la esquina superior derecha pasan a ser **Cancelar** (descarta tus cambios) y **Guardar** (que solo se activa una vez has cambiado algo de verdad). El **icono de papelera** junto a ellos elimina el libro por completo, en cualquiera de los dos modos — se te pedirá confirmación antes.
 
 ## Entendiendo el stock
 
@@ -25,15 +25,19 @@ Un título puede existir en tu catálogo con **cero, uno o varios ejemplares fí
 - **Código** — el identificador único impreso en la etiqueta de código de barras de ese ejemplar.
 - **Ubicación** — dónde se encuentra ese ejemplar en concreto (consulta [Ubicaciones](./locations)).
 - **Estado**:
-  - 🔵 **Reservado** — actualmente prestado a un cliente.
+  - 🔵 **Reservado** — actualmente prestado a un cliente. Solo se ofrece si tienes [Préstamos](./settings#funciones) activado en tu cuenta.
   - 🟢 **Disponible** — en la estantería, listo para ser prestado.
   - ⚪ **No disponible** — temporalmente fuera de circulación.
   - 🟠 **Dañado** — dañado y no disponible para préstamo.
-- **Reservado por** — el cliente que tiene actualmente ese ejemplar, si su estado es Reservado.
+- **Reservado por** — el cliente que tiene actualmente ese ejemplar, mostrado solo cuando Préstamos está activado.
 
 ## Añadir un ejemplar
 
-Haz clic en **Añadir** encima de la tabla de Stock, elige un **estado** y una **ubicación**, y (si lo marcas como Reservado) selecciona qué **cliente** lo tiene. Puedes elegir entre:
+Haz clic en **Añadir** encima de la tabla de Stock, elige un **estado** y una **ubicación**, y (si Préstamos está activado y lo marcas como Reservado) selecciona qué **cliente** lo tiene.
+
+![El diálogo Añadir ejemplar de libro](/screenshots/add-stock-dialog.png)
+
+Puedes elegir entre:
 
 - **Añadir** — simplemente crear el ejemplar, o
 - **Añadir e imprimir** — crearlo y poner en cola inmediatamente su etiqueta de código de barras para imprimir (consulta [Impresión de etiquetas](./printing-labels)).
@@ -48,10 +52,15 @@ Usa las acciones de fila a la derecha de cada entrada de stock:
 
 > **Consejo:** Para prestar un ejemplar a alguien, puedes cambiar su estado a **Reservado** y elegir aquí un cliente, o usar el flujo de préstamo grupal desde la fila de un cliente — consulta [Préstamos y devoluciones](./lending-and-returns).
 
-## Copia de seguridad del archivo digital
+## Archivos digitales
 
-Junto a la imagen de portada puedes, opcionalmente, guardar una copia de seguridad del **archivo epub o pdf** del libro — útil si lo has descargado y transferido a un lector electrónico, ya que entonces el lector se convierte en el único lugar donde vive esa copia. Haz clic o arrastra y suelta un archivo (máximo 100MB) para subirlo; un libro conserva como máximo un archivo, así que subir uno nuevo sustituye al anterior.
+Pon el **Formato** de un libro como **Electrónico** para que aparezca una tarjeta de **Archivos digitales** junto a la imagen de portada, donde puedes guardar una copia de seguridad de los archivos del libro — útil si los has descargado y transferido a un lector electrónico, ya que entonces el lector se convierte en el único lugar donde viven.
 
-Una vez subido, puedes **descargarlo** de nuevo en cualquier momento (por ejemplo, si pierdes o restableces tu lector electrónico) o **eliminarlo** (con confirmación). Esto está pensado únicamente como copia de seguridad personal de archivos sobre los que ya tienes los derechos — no como un lugar para obtener libros de otras fuentes.
+![La tarjeta Archivos digitales, con una zona para arrastrar y soltar](/screenshots/ebook-files.png)
 
-En los libros con formato **Electrónico**, el archivo subido también muestra una vista previa justo debajo de la tarjeta de subida: los PDF se abren con el visor integrado del navegador, y los EPUB se muestran página a página con botones **‹**/**›** para pasar de página — sin necesidad de descargar el archivo solo para consultarlo.
+- Haz clic en **Añadir**, o arrastra y suelta, para subir un archivo **epub, pdf, mobi o azw3**.
+- A diferencia del resto del libro, cada tipo de archivo se guarda de forma independiente — puedes tener un epub *y* un pdf de copia de seguridad para el mismo libro a la vez; subir un archivo nuevo de un tipo que ya tenías sustituye solo a ese.
+- Cada archivo subido aparece en su propia fila con un icono, el nombre del archivo, el tamaño y la fecha de subida, además de acciones de **vista previa** (icono del ojo, se abre en un diálogo — los PDF y EPUB se recorren página a página ahí mismo, con un botón para verlos a pantalla completa), **descarga** y **eliminación**.
+- El tamaño máximo permitido depende de cómo esté configurado tu servidor de Vaultisse — pregunta a quien lo administre si una subida se rechaza por ser demasiado grande.
+
+Esto está pensado únicamente como copia de seguridad personal de archivos sobre los que ya tienes los derechos — no como un lugar para obtener libros de otras fuentes.

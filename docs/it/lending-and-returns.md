@@ -19,7 +19,9 @@ Mentre una copia è Prenotata, compare:
 
 ## Restituire i libri
 
-Quando una copia rientra, usa il pulsante **Restituisci libri** — disponibile sia dalla [Dashboard](./dashboard) sia dalla pagina [Clienti](./customers-and-groups).
+Quando una copia rientra, usa il pulsante **Restituisci libri** — disponibile dalla [Dashboard](./dashboard), dalla pagina [Clienti](./customers-and-groups) e dalla stessa pagina Prestiti.
+
+![La finestra Restituisci libri, con la scansione o la digitazione di un codice di stock](/screenshots/return-books-dialog.png)
 
 1. Clicca su **Restituisci libri** per aprire la finestra.
 2. Per ogni copia in rientro, **scansiona la sua etichetta con codice a barre** con la fotocamera oppure **digita il suo codice di stock**.
@@ -41,6 +43,8 @@ La pagina **Prestiti** mostra un unico elenco di tutte le copie attualmente in p
 ## Esportare un report dei prestiti
 
 Clicca su **Genera report**, nell'angolo in alto a destra della pagina Prestiti, per esportare un file Excel (.xlsx) con lo storico dei prestiti — comprese le copie già restituite, non solo quelle attualmente fuori.
+
+![La finestra Report prestiti](/screenshots/loan-report-dialog.png)
 
 1. Scegli una data **Da** e **A** — obbligatorie, dato che il report copre sempre un intervallo di date.
 2. Facoltativamente, restringilo a un **Gruppo** o **Cliente** specifico.

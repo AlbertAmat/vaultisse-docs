@@ -2,25 +2,33 @@
 
 ![The Customers page](/screenshots/customers.png)
 
-The **Customers** page manages the people who can borrow books, and lets you organize them into groups (for example, by class, grade, or department).
+The **Customers** page manages the people who can borrow books, and lets you organize them into groups (for example, by class, grade, or department). This page — along with [Loans](./lending-and-returns) — only appears once **Leasing** is turned on in [Settings](./settings#features).
 
 ## Customers tab
 
-The main table lists every customer with their **tags**, the **total number of books** currently on loan to them, and which **group** they belong to (if any).
+Each customer is listed as its own card, showing their **name**, the **group** they belong to (or "No group"), and how many **books** are currently on loan to them.
 
 - Click **Add** to create a new customer.
 - Use the ✏️ icon to edit a customer, or 🗑️ to delete one (with confirmation).
-- Click the row's expand arrow to reveal that customer's **borrowed books** in a table underneath.
+- Click the row's expand arrow to reveal that customer's **borrowed books** underneath.
+
+![The Add customer dialog](/screenshots/customer-dialog.png)
+
+> **Note:** If your account is registered as a public institution, the Add/Edit customer dialog warns against entering sensitive personal information — use a student code or ID that only you can identify rather than a full name.
 
 ## Groups tab
 
 Switch to the **Groups** tab to manage customer groups. Every customer without a group appears under a built-in **No group** bucket, so nobody is ever hidden.
+
+![The Groups tab, listing each group and its customer count](/screenshots/customer-groups.png)
 
 For each group you can see its **name**, **description**, and **total number of customers**, and:
 
 - Click **Add** to create a new group.
 - Expand a group to see and manage its **members**.
 - ✏️ edit or 🗑️ delete a group (deleting doesn't delete its customers — they just become unassigned).
+
+![The Add group dialog](/screenshots/customer-group-dialog.png)
 
 ### Moving customers between groups
 

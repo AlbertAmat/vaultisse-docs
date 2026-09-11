@@ -17,9 +17,11 @@ Puoi accodare un'etichetta per la stampa in un paio di posti:
 
 ## Stampa
 
+![La finestra della coda di stampa, con un'etichetta pronta per la stampa](/screenshots/print-queue-dialog.png)
+
 Apri la coda di stampa e:
 
-- Clicca su **Stampa** per inviare tutte le etichette in coda alla tua stampante.
+- Clicca su **Stampa** per scaricare un PDF pronto per la stampa (un'etichetta per pagina) con tutte le etichette in coda — aprilo e stampalo dal tuo visualizzatore di PDF.
 - Clicca su **Svuota coda** per rimuovere tutto senza stampare.
 
 Ogni etichetta include il nome del libro e un codice a barre scansionabile del suo codice di stock, pronto per essere scansionato di nuovo in seguito con lo [scanner di codici a barre](./adding-books) integrato nell'app — per esempio quando restituisci un libro o lo aggiungi a un cliente.

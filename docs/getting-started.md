@@ -23,14 +23,16 @@ The navigation menu on the left is your starting point for every part of the app
 | **Library** | Search, browse, and add books to your catalog. |
 | **Locations** | The shelves, rooms, or branches where copies are stored. |
 | **Categories** | The subjects or genres you use to classify books. |
-| **Customers** | The people who can borrow books, and the groups they belong to. |
 | **Authors** | The list of authors linked to your books. |
+| **Customers** and **Loans** | The people who can borrow books, the groups they belong to, and what's currently out. Only shown once **Leasing** is turned on in [Settings](./settings#features) — hidden by default for accounts that just track a personal collection. |
 
 At the top of the screen you'll always find a **search bar** to jump straight to a book, and your **profile menu** (top right) for account settings and logging out.
 
 At the bottom of the menu, the **print queue** icon shows how many barcode labels are waiting to be printed — see [Printing labels](./printing-labels) for details.
 
 > **Tip:** Most screens that scan barcodes (adding a book, adding stock, returning a book) accept both a **camera scan** and **typing the code by hand**, so you're never blocked if a scanner or camera isn't available.
+
+The footer at the bottom of every page links to Vaultisse's **Privacy Policy**, **Terms of Service**, and **Cookie Policy** — worth a look if you're setting the app up for other people to use.
 
 ## Where to go next
 
