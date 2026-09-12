@@ -14,6 +14,10 @@ A destra, uno scaffale a scorrimento orizzontale mostra le copertine dei libri a
 
 Sotto l'intestazione, il tuo catalogo viene suddiviso in uno scaffale a parte per categoria — ciascuno con il suo nome, il conteggio dei libri e una riga di copertine a scorrimento orizzontale. Clicca sull'intestazione di uno scaffale per aprire quella categoria nella [Libreria](./searching-the-library), oppure su una copertina per andare direttamente a quel libro.
 
+## La tua lettura
+
+Due scaffali seguono i tuoi progressi di lettura personali, in base allo [stato di lettura](./book-details#stato-di-lettura) di ogni libro: **In lettura** e **Da leggere**, ciascuno con copertine e un link **Vedi tutto** a quella vista filtrata della Libreria. Accanto, un dato **Libri letti** somma tutti i libri che hai segnato come Letto.
+
 ## Prestiti in corso
 
 Una scheda elenca tutte le copie attualmente in prestito, con copertina, libro e a chi è stata prestata. Se ci sono più prestiti di quanti ne entrino nell'elenco, una nota te lo segnala — clicca su **Vedi tutto** per consultare l'elenco completo nella pagina [Prestiti](./lending-and-returns). Quando non c'è nulla in prestito, la scheda lo indica semplicemente.

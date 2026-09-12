@@ -14,6 +14,10 @@ A la dreta, un prestatge amb desplaçament horitzontal mostra les portades dels 
 
 Sota la capçalera, el teu catàleg es reparteix en un prestatge propi per categoria — cadascun amb el seu nom, el seu recompte de llibres i una fila de portades amb desplaçament horitzontal. Fes clic a la capçalera d'un prestatge per obrir aquella categoria a la [Biblioteca](./searching-the-library), o a qualsevol portada per anar directament a aquell llibre.
 
+## La teva lectura
+
+Dos prestatges segueixen el teu progrés de lectura personal, segons l'[estat de lectura](./book-details#estat-de-lectura) de cada llibre: **Llegint ara** i **Per llegir**, cadascun amb portades i un enllaç **Veure-ho tot** a aquella vista filtrada de la Biblioteca. A prop, una dada de **Llibres llegits** suma tots els llibres que has marcat com a Llegit.
+
 ## Préstecs en curs
 
 Una targeta mostra tots els exemplars actualment en préstec, amb la seva portada, el llibre i qui el té. Si hi ha més préstecs dels que hi caben a la llista, una nota t'ho indica — fes clic a **Veure-ho tot** per consultar la llista completa a la pàgina de [Préstecs](./lending-and-returns). Quan no hi ha res prestat, la targeta simplement ho indica.

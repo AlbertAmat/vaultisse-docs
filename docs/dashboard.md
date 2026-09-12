@@ -14,6 +14,10 @@ To the right, a horizontally scrolling shelf shows the covers of your most recen
 
 Below the hero, your catalog is broken down into its own shelf per category — each with its name, its book count, and a horizontally scrolling row of covers. Click a shelf's header to open that category in the [Library](./searching-the-library), or click any cover to jump straight to that book.
 
+## Your reading
+
+Two shelves track your personal reading progress, based on each book's [reading status](./book-details#reading-status): **Currently reading** and **Want to read**, each showing covers and a **View all** link to that filtered view of the Library. A **Books read** stat nearby totals every book you've marked as Read.
+
 ## Currently on loan
 
 A card lists every copy currently on loan, showing its cover, book, and who has it. If there are more loans than fit in the list, a note tells you so — click **View all** to see the complete list on the [Loans](./lending-and-returns) page. When nothing is out, the card simply says so.

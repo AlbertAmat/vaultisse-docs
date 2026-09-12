@@ -30,6 +30,7 @@ Click the funnel icon inside the search box, from anywhere in the app, to open t
 - **Has stock** — books that have at least one copy.
 - **On loan** — books with at least one copy currently lent out.
 - **Recent** — books added recently.
+- **Want to read** / **Currently reading** / **Read** — filter by your personal [reading status](./book-details#reading-status).
 - **Category** — narrow the list down to a single category.
 - **Upload date** — a **From**/**To** date range on when the book was added to your catalog; click **Apply** to use it, or **Clear** to remove it.
 

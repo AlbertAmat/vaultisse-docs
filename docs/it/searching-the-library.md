@@ -30,6 +30,7 @@ Clicca sull'icona a imbuto all'interno del campo di ricerca, da qualsiasi punto 
 - **Con copie** — libri che hanno almeno una copia.
 - **In prestito** — libri con almeno una copia attualmente prestata.
 - **Recenti** — libri aggiunti di recente.
+- **Da leggere** / **In lettura** / **Letto** — filtra in base al tuo [stato di lettura](./book-details#stato-di-lettura) personale.
 - **Categoria** — restringi l'elenco a una singola categoria.
 - **Data di caricamento** — un intervallo di date **Da**/**A** su quando il libro è stato aggiunto al catalogo; clicca su **Applica** per usarlo, o su **Cancella** per rimuoverlo.
 

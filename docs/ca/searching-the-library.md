@@ -30,6 +30,7 @@ Fes clic a la icona d'embut dins del quadre de cerca, des de qualsevol lloc de l
 - **Amb estoc** — llibres que tenen almenys un exemplar.
 - **En préstec** — llibres amb almenys un exemplar actualment prestat.
 - **Recents** — llibres afegits recentment.
+- **Per llegir** / **Llegint ara** / **Llegit** — filtra pel teu [estat de lectura](./book-details#estat-de-lectura) personal.
 - **Categoria** — redueix la llista a una sola categoria.
 - **Data de pujada** — un interval de dates **Des de**/**Fins a** sobre quan es va afegir el llibre al teu catàleg; fes clic a **Aplicar** per fer-lo servir, o a **Esborrar** per eliminar-lo.
 

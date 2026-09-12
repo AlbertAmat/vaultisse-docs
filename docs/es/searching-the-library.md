@@ -30,6 +30,7 @@ Haz clic en el icono de embudo dentro del cuadro de búsqueda, desde cualquier p
 - **Con stock** — libros que tienen al menos un ejemplar.
 - **En préstamo** — libros con al menos un ejemplar actualmente prestado.
 - **Recientes** — libros añadidos hace poco.
+- **Por leer** / **Leyendo ahora** / **Leído** — filtra por tu [estado de lectura](./book-details#estado-de-lectura) personal.
 - **Categoría** — acota la lista a una sola categoría.
 - **Fecha de subida** — un rango de fechas **Desde**/**Hasta** sobre cuándo se añadió el libro a tu catálogo; haz clic en **Aplicar** para usarlo, o en **Vaciar** para quitarlo.
 
