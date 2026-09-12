@@ -38,7 +38,7 @@ Opening the filter menu from any other page (not just Library) jumps you to the 
 
 ## Adding a book from here
 
-The **Add book** button in the top-right lets you add a new title straight from the search screen — either [by ISBN or manually](./adding-books).
+The **Add book** button in the top-right lets you add a new title straight from the search screen — either [by ISBN or manually](./adding-books). Next to it, **Import** lets you [bulk-add books from a CSV file](./importing-books) instead.
 
 ## Opening a book
 

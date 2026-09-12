@@ -38,7 +38,7 @@ Si obres el menú de filtres des de qualsevol altra pàgina (no només la Biblio
 
 ## Afegir un llibre des d'aquí
 
-El botó **Afegir llibre**, a dalt a la dreta, et permet afegir un nou títol directament des de la pantalla de cerca — [per ISBN o manualment](./adding-books).
+El botó **Afegir llibre**, a dalt a la dreta, et permet afegir un nou títol directament des de la pantalla de cerca — [per ISBN o manualment](./adding-books). Al costat, **Importa** et permet [afegir llibres en bloc des d'un fitxer CSV](./importing-books).
 
 ## Obrir un llibre
 

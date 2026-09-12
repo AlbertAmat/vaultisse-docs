@@ -20,5 +20,6 @@ Una vez creada, una ubicación está disponible en cualquier lugar donde asignes
 
 - Al seleccionar una ubicación mientras [añades un libro por ISBN](./adding-books).
 - Al elegir una ubicación al [añadir o editar un ejemplar de stock](./book-details) en la página de un libro.
+- Automáticamente, una por cada estante personalizado, al [importar desde Goodreads](./importing-books#importar-desde-goodreads).
 
 Esto facilita responder a preguntas como "¿dónde está este libro?" o "¿qué hay en la estantería B?" de un vistazo.

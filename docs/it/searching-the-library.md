@@ -38,7 +38,7 @@ Aprire il menu dei filtri da qualsiasi altra pagina (non solo Biblioteca) ti por
 
 ## Aggiungere un libro da qui
 
-Il pulsante **Aggiungi libro** in alto a destra ti permette di aggiungere un nuovo titolo direttamente dalla schermata di ricerca — [tramite ISBN o manualmente](./adding-books).
+Il pulsante **Aggiungi libro** in alto a destra ti permette di aggiungere un nuovo titolo direttamente dalla schermata di ricerca — [tramite ISBN o manualmente](./adding-books). Accanto, **Importa** ti permette di [aggiungere libri in blocco da un file CSV](./importing-books).
 
 ## Aprire un libro
 

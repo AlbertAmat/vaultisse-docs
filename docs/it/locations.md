@@ -20,5 +20,6 @@ Una volta creata, un'ubicazione diventa disponibile ovunque tu assegni una copia
 
 - Selezionando un'ubicazione durante l'[aggiunta di un libro tramite ISBN](./adding-books).
 - Scegliendo un'ubicazione durante l'[aggiunta o la modifica di una copia](./book-details) sulla pagina di un libro.
+- Automaticamente, una per ogni scaffale personalizzato, [importando da Goodreads](./importing-books#importare-da-goodreads).
 
 Questo rende facile rispondere a domande come "dove si trova questo libro?" o "cosa c'è sullo scaffale B?" con un semplice colpo d'occhio.

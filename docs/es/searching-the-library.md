@@ -38,7 +38,7 @@ Abrir el menú de filtros desde cualquier otra página (no solo Biblioteca) te l
 
 ## Añadir un libro desde aquí
 
-El botón **Añadir libro** de la parte superior derecha te permite añadir un nuevo título directamente desde la pantalla de búsqueda — [por ISBN o manualmente](./adding-books).
+El botón **Añadir libro** de la parte superior derecha te permite añadir un nuevo título directamente desde la pantalla de búsqueda — [por ISBN o manualmente](./adding-books). Justo al lado, **Importar** te permite [añadir libros en bloque desde un archivo CSV](./importing-books).
 
 ## Abrir un libro
 

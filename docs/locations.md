@@ -20,5 +20,6 @@ Once created, a location becomes available wherever you assign a physical copy t
 
 - Selecting a location while [adding a book by ISBN](./adding-books).
 - Choosing a location when [adding or editing a stock copy](./book-details) on a book's page.
+- Automatically, one per custom shelf, when [importing from Goodreads](./importing-books#importing-from-goodreads).
 
 This makes it easy to answer "where is this book?" or "what's on shelf B?" at a glance.

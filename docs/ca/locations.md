@@ -20,5 +20,6 @@ Un cop creada, una ubicació queda disponible allà on assignis un exemplar fís
 
 - En seleccionar una ubicació mentre [afegeixes un llibre per ISBN](./adding-books).
 - En triar una ubicació en [afegir o editar un exemplar d'estoc](./book-details) a la pàgina d'un llibre.
+- Automàticament, una per cada prestatge personalitzat, en [importar des de Goodreads](./importing-books#importar-des-de-goodreads).
 
 Això fa que sigui fàcil respondre a "on és aquest llibre?" o "què hi ha al prestatge B?" d'un cop d'ull.
