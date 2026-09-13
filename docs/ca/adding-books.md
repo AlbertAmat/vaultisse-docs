@@ -21,7 +21,7 @@ Mentre es processa cada ISBN, en veuràs l'estat al costat a la llista:
 - Una icona d'avís si no s'ha trobat cap llibre per a aquest ISBN.
 - Una icona d'error si alguna cosa ha anat malament.
 
-> **Consell:** Vaultisse cerca l'ISBN automàticament fent servir bases de dades de llibres en línia, i recorre a una segona font si la primera no té el llibre. Si tot i així no es pot trobar un codi, sempre pots afegir aquest títol [manualment](#add-manually).
+> **Consell:** Vaultisse cerca l'ISBN automàticament fent servir bases de dades de llibres en línia, i prova fonts addicionals per ordre si la primera no té el llibre o la seva portada. Si tot i així no es pot trobar un codi, sempre pots afegir aquest títol [manualment](#add-manually) — o [cercar-ne la portada més endavant](./book-details#finding-a-cover-online), un cop el llibre ja existeixi.
 
 ## Afegir manualment {#add-manually}
 
@@ -32,6 +32,7 @@ Fes servir aquesta opció quan un llibre no tingui ISBN, o quan la cerca automà
 1. Tria **Afegir llibre manualment** al menú **Afegir llibre**.
 2. Opcionalment, arrossega i deixa anar una **imatge de portada**.
 3. Omple el **nom** (obligatori), una **descripció** i l'**ISBN** si en tens un.
-4. Fes clic a **Afegir**. Aniràs directament a la [pàgina de detalls](./book-details) del nou llibre per completar la resta — categoria, idioma, format, autors i exemplars físics.
+4. Opcionalment, tria una **ubicació** — ve preseleccionada amb la teva [ubicació per defecte](./locations#default-location) si n'has definit una; buida el camp per afegir el llibre sense cap exemplar.
+5. Fes clic a **Afegir**. Aniràs directament a la [pàgina de detalls](./book-details) del nou llibre per completar la resta — categoria, idioma, format, autors i exemplars físics.
 
 Sigui quin sigui el mètode, un cop creat el llibre acabaràs a la seva pàgina de detalls, a punt per afegir estoc i imprimir etiquetes.

@@ -18,6 +18,14 @@ Haz clic en **Editar** para convertir todo eso en un formulario editable:
 
 Mientras editas, los botones de la esquina superior derecha pasan a ser **Cancelar** (descarta tus cambios) y **Guardar** (que solo se activa una vez has cambiado algo de verdad). El **icono de papelera** junto a ellos elimina el libro por completo, en cualquiera de los dos modos — se te pedirá confirmación antes.
 
+### Buscar una portada en línea {#finding-a-cover-online}
+
+Si un libro tiene **ISBN** pero todavía no tiene portada, aparece un botón **Buscar portada** en el área de imagen vacía — útil para títulos añadidos manualmente o para aquellos cuya búsqueda automática por ISBN no encontró ninguna imagen en su momento.
+
+![Un libro sin portada todavía, mostrando el botón Buscar portada](/screenshots/book-find-cover.png)
+
+Haz clic en él y Vaultisse buscará una en línea por ti, probando varias fuentes por orden hasta encontrar una coincidencia. Si ninguna tiene portada para ese ISBN, verás un mensaje que te lo indica — aun así puedes añadir una tú mismo arrastrando una imagen al área de la portada.
+
 ## Estado de lectura
 
 Controla tu propio progreso de lectura de un libro, independiente del estado de su stock — esto trata de si *tú* lo has leído, no de si un ejemplar está prestado.

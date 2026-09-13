@@ -21,7 +21,7 @@ Mentre ogni ISBN viene elaborato, ne vedrai lo stato accanto nell'elenco:
 - Un'icona di avviso se per quell'ISBN non è stato trovato alcun libro.
 - Un'icona di errore se qualcosa è andato storto.
 
-> **Suggerimento:** Vaultisse cerca automaticamente l'ISBN usando database di libri online, ricorrendo a una seconda fonte se la prima non ha il libro. Se un codice non viene comunque trovato, puoi sempre aggiungere quel titolo [manualmente](#add-manually).
+> **Suggerimento:** Vaultisse cerca automaticamente l'ISBN usando database di libri online, provando fonti aggiuntive in sequenza se la prima non ha il libro o la sua copertina. Se un codice non viene comunque trovato, puoi sempre aggiungere quel titolo [manualmente](#add-manually) — oppure [cercarne la copertina più avanti](./book-details#finding-a-cover-online), una volta che il libro esiste già.
 
 ## Aggiungi manualmente {#add-manually}
 
@@ -32,6 +32,7 @@ Usa questa opzione quando un libro non ha ISBN, o quando la ricerca automatica n
 1. Scegli **Aggiungi libro manualmente** dal menu **Aggiungi libro**.
 2. Facoltativamente trascina e rilascia un'**immagine di copertina**.
 3. Compila il **nome** (obbligatorio), una **descrizione** e l'**ISBN** se ne hai uno.
-4. Clicca su **Aggiungi**. Sarai portato direttamente alla [pagina di dettaglio](./book-details) del nuovo libro per completare il resto — categoria, lingua, formato, autori e copie fisiche.
+4. Facoltativamente scegli un'**ubicazione** — è preselezionata con la tua [ubicazione predefinita](./locations#default-location) se ne hai impostata una; svuota il campo per aggiungere il libro senza alcuna copia.
+5. Clicca su **Aggiungi**. Sarai portato direttamente alla [pagina di dettaglio](./book-details) del nuovo libro per completare il resto — categoria, lingua, formato, autori e copie fisiche.
 
 In entrambi i casi, una volta creato un libro arriverai alla sua pagina di dettaglio, pronta per aggiungere copie e stampare etichette.

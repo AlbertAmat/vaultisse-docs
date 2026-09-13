@@ -21,7 +21,7 @@ While each ISBN is processed you'll see its status next to it in the list:
 - A warning icon if no book could be found for that ISBN.
 - An error icon if something went wrong.
 
-> **Tip:** Vaultisse looks the ISBN up automatically using online book databases, falling back to a second source if the first one doesn't have the book. If a code still can't be found, you can always add that title [manually](#add-manually) instead.
+> **Tip:** Vaultisse looks the ISBN up automatically using online book databases, trying additional sources in turn if the first one doesn't have the book or its cover. If a code still can't be found, you can always add that title [manually](#add-manually) instead — or [look up its cover later](./book-details#finding-a-cover-online) once the book exists.
 
 ## Add manually {#add-manually}
 
@@ -32,6 +32,7 @@ Use this when a book has no ISBN, or the automatic lookup couldn't find it.
 1. Choose **Add book manually** from the **Add book** menu.
 2. Optionally drag and drop a **cover image**.
 3. Fill in the **name** (required), a **description**, and the **ISBN** if you have one.
-4. Click **Add**. You'll be taken straight to the new book's [detail page](./book-details) to fill in the rest — category, language, format, authors, and physical copies.
+4. Optionally choose a **location** — it's pre-filled with your [default location](./locations#default-location) if you've set one; clear it to add the book without a physical copy.
+5. Click **Add**. You'll be taken straight to the new book's [detail page](./book-details) to fill in the rest — category, language, format, authors, and physical copies.
 
 Either way, once a book is created you'll land on its detail page, ready to add stock and print labels.

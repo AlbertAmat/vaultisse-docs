@@ -18,6 +18,14 @@ Clicca su **Modifica** per trasformare tutto questo in un modulo compilabile:
 
 Durante la modifica, i pulsanti in alto a destra diventano **Annulla** (scarta le modifiche) e **Salva** (che diventa attivo solo dopo aver effettivamente cambiato qualcosa). L'**icona del cestino** accanto elimina completamente il libro, in entrambe le modalità — ti verrà chiesta prima una conferma.
 
+### Cercare una copertina online {#finding-a-cover-online}
+
+Se un libro ha l'**ISBN** ma non ha ancora una copertina, nell'area immagine vuota compare un pulsante **Cerca copertina** — utile per i titoli aggiunti manualmente o per quelli la cui ricerca automatica tramite ISBN non aveva trovato un'immagine al momento.
+
+![Un libro senza ancora una copertina, con il pulsante Cerca copertina visibile](/screenshots/book-find-cover.png)
+
+Cliccalo e Vaultisse ne cercherà una online al posto tuo, provando più fonti in sequenza finché non ne trova una. Se nessuna di esse ha una copertina per quell'ISBN, vedrai un messaggio che te lo segnala — puoi comunque aggiungerne una tu trascinando un'immagine nell'area della copertina.
+
 ## Stato di lettura
 
 Tieni traccia dei tuoi progressi di lettura personali per un libro, indipendentemente dallo stato del suo stock — questo riguarda se *tu* lo hai letto, non se una copia è in prestito.

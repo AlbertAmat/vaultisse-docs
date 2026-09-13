@@ -18,6 +18,14 @@ Click **Edit** to turn all of that into an editable form:
 
 While editing, the top-right buttons become **Cancel** (discard your changes) and **Save** (which only becomes active once you've actually changed something). The **trash icon** next to them deletes the book entirely, in either mode — you'll be asked to confirm first.
 
+### Finding a cover online
+
+If a book has an **ISBN** but no cover yet, a **Find cover** button appears in the empty image area — handy for titles added manually or ones whose automatic ISBN lookup didn't turn up an image at the time.
+
+![A book with no cover yet, showing the Find cover button](/screenshots/book-find-cover.png)
+
+Click it and Vaultisse looks one up online for you, trying multiple sources in turn until it finds a match. If none of them have a cover for that ISBN, you'll see a message saying so — you can still add one yourself by dragging an image onto the cover area.
+
 ## Reading status
 
 Track your own personal reading progress on a book, separate from its stock status — this is about whether *you* have read it, not whether a copy is out on loan.

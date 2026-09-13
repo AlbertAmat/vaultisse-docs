@@ -18,6 +18,14 @@ Fes clic a **Editar** per convertir tot això en un formulari editable:
 
 Mentre edites, els botons de dalt a la dreta es converteixen en **Cancel·la** (descarta els canvis) i **Desar** (que només s'activa un cop has canviat realment alguna cosa). La **icona de paperera** del costat elimina el llibre completament, en qualsevol dels dos modes — se't demanarà confirmació prèviament.
 
+### Cercar una portada en línia {#finding-a-cover-online}
+
+Si un llibre té **ISBN** però encara no té portada, apareix un botó **Cerca coberta** a l'àrea d'imatge buida — útil per a títols afegits manualment o per a aquells la cerca automàtica per ISBN dels quals no va trobar cap imatge en el seu moment.
+
+![Un llibre sense portada, mostrant el botó Cerca coberta](/screenshots/book-find-cover.png)
+
+Fes-hi clic i Vaultisse en cerca una en línia per tu, provant diverses fonts per ordre fins que en troba una. Si cap d'elles té portada per a aquest ISBN, veuràs un missatge que t'ho indica — igualment pots afegir-ne una tu mateix arrossegant una imatge a l'àrea de la portada.
+
 ## Estat de lectura
 
 Fes un seguiment del teu propi progrés de lectura d'un llibre, independent de l'estat del seu estoc — això és sobre si *tu* l'has llegit, no sobre si un exemplar està en préstec.
