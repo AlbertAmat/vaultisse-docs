@@ -8,6 +8,29 @@ function sidebarItems(items: [title: string, slug: string][]): DefaultTheme.Side
     return items.map(([text, slug]) => ({ text, link: `/${slug}` }));
 }
 
+// Version, newest first - matches the `{#slug}` anchor on each heading in docs/releases.md.
+const RELEASES: [version: string, slug: string][] = [
+    ["v1.3.0", "v1-3-0"],
+    ["v1.2.4", "v1-2-4"],
+    ["v1.2.3", "v1-2-3"],
+    ["v1.2.2", "v1-2-2"],
+    ["v1.2.1", "v1-2-1"],
+    ["v1.2.0", "v1-2-0"],
+    ["v1.1.8", "v1-1-8"],
+    ["v1.1.7", "v1-1-7"],
+    ["v1.1.6", "v1-1-6"],
+    ["v1.1.5", "v1-1-5"],
+    ["v1.1.4", "v1-1-4"],
+    ["v1.1.3", "v1-1-3"],
+    ["v1.1.2", "v1-1-2"],
+    ["v1.1.1", "v1-1-1"],
+    ["v1.1.0", "v1-1-0"],
+];
+
+function releasesSidebar(text: string): DefaultTheme.SidebarItem[] {
+    return [{ text, items: RELEASES.map(([version, slug]) => ({ text: version, link: `/releases#${slug}` })) }];
+}
+
 const SECTIONS_EN: [string, string][] = [
     ["Getting started", "getting-started"],
     ["Dashboard", "dashboard"],
@@ -121,9 +144,13 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: "Guide", link: "/getting-started" },
+                    { text: "Releases", link: "/releases" },
                     { text: "Vaultisse app", link: APP_URL },
                 ],
-                sidebar: [{ text: "Documentation", items: sidebarItems(SECTIONS_EN) }],
+                sidebar: {
+                    "/releases": releasesSidebar("Releases"),
+                    "/": [{ text: "Documentation", items: sidebarItems(SECTIONS_EN) }],
+                },
                 outlineTitle: "On this page",
                 docFooter: { prev: "Previous page", next: "Next page" },
                 darkModeSwitchLabel: "Appearance",
