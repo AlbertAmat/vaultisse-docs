@@ -22,6 +22,10 @@ Selecting a theme applies it right away. Below it, the **Compact menu** switch c
 
 The **Leasing** switch turns on the **Loans** and **Customers** pages (and their entries in the sidebar) — off by default for accounts that just track a personal collection. Turning it off again hides both pages; it doesn't delete any existing loans or customers. Like the theme, this switch applies immediately — it isn't held back by the **Save** button below.
 
+## Vaults
+
+A **vault** is a library that can be shared with other people. The **Vaults** card lists every vault you belong to — click **Switch** to work in a different one, **Manage** to see its members and invite link, or **New vault** to create another. See [Sharing a library & roles](./sharing-and-roles) for inviting people and what each role can do.
+
 ## Language & region
 
 Choose your preferred **language** and **region** for the app's interface.

@@ -2,6 +2,8 @@
 
 ![La pàgina de Clients](/screenshots/customers.png)
 
+> **Consell:** Els clients són només noms que mantens tu. Si la persona ja pertany a la teva biblioteca com a [membre](./sharing-and-roles#deixar-un-llibre-a-un-membre-de-la-biblioteca), no cal afegir-la aquí — apareix sola a la llista de prestataris. Els comptes Borrower i Només lectura no veuen aquesta pàgina.
+
 La pàgina de **Clients** gestiona les persones que poden agafar llibres en préstec, i et permet organitzar-les en grups (per exemple, per classe, curs o departament). Aquesta pàgina — junt amb [Préstecs](./lending-and-returns) — només apareix un cop actives els **Préstecs** a [Configuració](./settings#funcionalitats).
 
 ## Pestanya de Clients

@@ -39,6 +39,8 @@ Haz clic en el botón **Estado de lectura**, junto a Editar, en la esquina super
 - **Leído** — ya lo has terminado.
 - **Limpiar** — elimina el estado por completo (solo aparece si ya tiene uno asignado).
 
+Tu estado de lectura es **personal**: en una biblioteca compartida cada persona tiene el suyo, así que cambiarlo no afecta a nadie más. Está disponible para todos los roles, incluidos Borrower y Solo lectura (consulta [Compartir una biblioteca y roles](./sharing-and-roles#el-estado-de-lectura-es-personal)).
+
 Elegir una opción se aplica al momento — no hace falta entrar en Editar ni Guardar. El estado actual también aparece como campo en la información del libro, y alimenta los widgets de lectura del [Panel de control](./dashboard) y los [filtros de la Biblioteca](./searching-the-library#filtrado).
 
 ## Entendiendo el stock
@@ -52,7 +54,9 @@ Un título puede existir en tu catálogo con **cero, uno o varios ejemplares fí
   - 🟢 **Disponible** — en la estantería, listo para ser prestado.
   - ⚪ **No disponible** — temporalmente fuera de circulación.
   - 🟠 **Dañado** — dañado y no disponible para préstamo.
-- **Reservado por** — el cliente que tiene actualmente ese ejemplar, mostrado solo cuando Préstamos está activado.
+- **Reservado por** — el cliente o [miembro de la biblioteca](./sharing-and-roles#prestar-un-libro-a-un-miembro-de-la-biblioteca) que tiene actualmente ese ejemplar, mostrado solo cuando Préstamos está activado.
+
+> **Nota:** Añadir, editar y eliminar libros y ejemplares es cosa de los roles Normal y Admin. Las cuentas Borrower y Solo lectura ven la página en solo lectura — consulta [Compartir una biblioteca y roles](./sharing-and-roles#roles).
 
 ## Añadir un ejemplar
 

@@ -39,6 +39,8 @@ Fes clic al botó **Estat de lectura**, al costat d'Editar, a la cantonada super
 - **Llegit** — ja l'has acabat.
 - **Netejar** — elimina l'estat completament (només es mostra quan ja n'hi ha un d'assignat).
 
+El teu estat de lectura és **personal**: en una biblioteca compartida cada persona té el seu, així que canviar-lo no afecta ningú més. Està disponible per a tots els rols, inclosos Borrower i Només lectura (consulta [Compartir una biblioteca i rols](./sharing-and-roles#l-estat-de-lectura-es-personal)).
+
 Triar una opció s'aplica a l'instant — no cal entrar a Editar ni Desar primer. L'estat actual també apareix com a camp a la informació del llibre, i alimenta els widgets de lectura del [Tauler de control](./dashboard) i els [filtres de la Biblioteca](./searching-the-library#filtrar).
 
 ## Entendre l'estoc
@@ -52,7 +54,9 @@ Un títol de llibre pot existir al teu catàleg amb **zero, un o diversos exempl
   - 🟢 **Disponible** — al prestatge, a punt per ser agafat en préstec.
   - ⚪ **No disponible** — temporalment fora de circulació.
   - 🟠 **Malmès** — danyat i no es pot deixar en préstec.
-- **Reservat per** — el client que té actualment aquest exemplar, mostrat només quan els Préstecs estan activats.
+- **Reservat per** — el client o [membre de la biblioteca](./sharing-and-roles#deixar-un-llibre-a-un-membre-de-la-biblioteca) que té actualment aquest exemplar, mostrat només quan els Préstecs estan activats.
+
+> **Nota:** Afegir, editar i eliminar llibres i exemplars és cosa dels rols Normal i Admin. Els comptes Borrower i Només lectura veuen la pàgina en només lectura — consulta [Compartir una biblioteca i rols](./sharing-and-roles#rols).
 
 ## Afegir un exemplar
 

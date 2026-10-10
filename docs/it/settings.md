@@ -22,6 +22,10 @@ Selezionare un tema lo applica subito. Poco sotto, l'interruttore **Menu compatt
 
 L'interruttore **Prestiti** attiva le pagine **Prestiti** e **Clienti** (e le relative voci nel menu laterale) — disattivato per impostazione predefinita per gli account che tengono traccia solo di una collezione personale. Disattivarlo di nuovo nasconde entrambe le pagine; non elimina prestiti o clienti esistenti. Come il tema, questo interruttore si applica immediatamente — non dipende dal pulsante **Salva** più in basso.
 
+## Biblioteche
+
+Una **biblioteca** è uno spazio che si può condividere con altre persone. La scheda **Biblioteche** elenca tutte le biblioteche a cui appartieni — clicca su **Passa a questa** per lavorare in un'altra, su **Gestisci** per vederne i membri e il link di invito, o su **Nuova biblioteca** per crearne un'altra. Vedi [Condividere una biblioteca e ruoli](./sharing-and-roles) per invitare persone e sapere cosa può fare ogni ruolo.
+
 ## Lingua e regione
 
 Scegli la tua **lingua** e **regione** preferite per l'interfaccia dell'app.

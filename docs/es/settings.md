@@ -22,6 +22,10 @@ Al seleccionar un tema, se aplica al instante. Justo debajo, el interruptor **Me
 
 El interruptor **Préstamos** activa las páginas de **Préstamos** y **Clientes** (y sus entradas en el menú lateral) — desactivado por defecto para las cuentas que solo hacen seguimiento de una colección personal. Volver a desactivarlo oculta ambas páginas; no elimina ningún préstamo o cliente existente. Igual que el tema, este interruptor se aplica al instante — no depende del botón **Guardar** de más abajo.
 
+## Bibliotecas
+
+Una **biblioteca** es un espacio que se puede compartir con otras personas. La tarjeta **Bibliotecas** muestra todas las bibliotecas a las que perteneces — haz clic en **Cambiar** para trabajar en otra, en **Gestionar** para ver sus miembros y su enlace de invitación, o en **Nueva biblioteca** para crear otra. Consulta [Compartir una biblioteca y roles](./sharing-and-roles) para invitar a personas y saber qué puede hacer cada rol.
+
 ## Idioma y región
 
 Elige tu **idioma** y **región** preferidos para la interfaz de la aplicación.

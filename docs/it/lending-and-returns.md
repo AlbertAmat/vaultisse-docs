@@ -17,6 +17,10 @@ Mentre una copia è Prenotata, compare:
 - Nella riga espansa del cliente, nel suo elenco di libri presi in prestito.
 - Nel totale **Libri prenotati** sulla [Dashboard](./dashboard).
 
+## Prestare a un membro della biblioteca
+
+Una copia può essere prestata anche a un **membro della biblioteca** — qualcuno di una biblioteca condivisa con il ruolo Borrower, Normal o Admin — invece che a un cliente. Apri la copia nella tabella delle Copie del libro, impostala su **Prenotato** e scegli la persona in **Prenotato da**: l'elenco mostra insieme i tuoi clienti e i membri che possono prendere in prestito. Il membro la vedrà poi in **I miei prestiti**. Vedi [Condividere una biblioteca e ruoli](./sharing-and-roles#prestare-un-libro-a-un-membro-della-biblioteca).
+
 ## Restituire i libri
 
 Quando una copia rientra, usa il pulsante **Restituisci libri** — disponibile dalla [Dashboard](./dashboard), dalla pagina [Clienti](./customers-and-groups) e dalla stessa pagina Prestiti.

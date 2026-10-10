@@ -17,6 +17,10 @@ Mentre un exemplar està Reservat, apareix:
 - A la fila desplegada del client, a la seva llista de llibres en préstec.
 - Al total de **Llibres reservats** al [Tauler de control](./dashboard).
 
+## Deixar a un membre de la biblioteca
+
+Un exemplar també es pot deixar en préstec a un **membre de la biblioteca** — algú d'una biblioteca compartida amb el rol Borrower, Normal o Admin — en lloc de a un client. Obre l'exemplar a la taula d'Estoc del llibre, posa'l com a **Reservat** i tria la persona a **Reservat per**: la llista mostra junts els teus clients i els membres que poden agafar llibres. El membre el veurà aleshores a **Els meus préstecs**. Consulta [Compartir una biblioteca i rols](./sharing-and-roles#deixar-un-llibre-a-un-membre-de-la-biblioteca).
+
 ## Retornar llibres
 
 Quan un exemplar es retorna, fes servir el botó **Retornar llibres** — disponible al [Tauler de control](./dashboard), a la pàgina de [Clients](./customers-and-groups) i a la pròpia pàgina de Préstecs.

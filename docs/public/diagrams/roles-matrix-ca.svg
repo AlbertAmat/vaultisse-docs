@@ -1,0 +1,54 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 356' width='900' font-family='Inter,Segoe UI,Helvetica,Arial,sans-serif' role='img' aria-label='Què pot fer cada rol'>
+<rect width='900' height='356' rx='14' fill='#faf6f0'/>
+<text x='24' y='38' font-size='20' font-weight='700' fill='#3b2f25'>Què pot fer cada rol</text>
+<text x='229' y='70' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>Veure la</text>
+<text x='229' y='84' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>biblioteca</text>
+<text x='348' y='70' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>Estat de</text>
+<text x='348' y='84' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>lectura propi</text>
+<text x='466' y='70' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>Demanar en</text>
+<text x='466' y='84' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>préstec i Els</text>
+<text x='466' y='98' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>meus préstecs</text>
+<text x='584' y='70' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>Afegir, editar</text>
+<text x='584' y='84' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>i esborrar</text>
+<text x='584' y='98' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>llibres</text>
+<text x='702' y='70' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>Gestionar</text>
+<text x='702' y='84' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>membres</text>
+<text x='821' y='70' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>Ajustos de la</text>
+<text x='821' y='84' font-size='12' text-anchor='middle' fill='#6b5b4b' font-weight='600'>biblioteca</text>
+<rect x='12' y='110' width='876' height='48' rx='10' fill='#fff'/>
+<rect x='12' y='110' width='6' height='48' rx='3' fill='#9aa5b1'/>
+<text x='32' y='139.0' font-size='15' font-weight='700' fill='#3b2f25'>Només lectura</text>
+<circle cx='229' cy='134' r='13' fill='#2e9e5b'/><path d='M223 134 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='348' cy='134' r='13' fill='#2e9e5b'/><path d='M342 134 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='466' cy='134' r='13' fill='#e4dccf'/><path d='M461 129 l10 10 M471 129 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<circle cx='584' cy='134' r='13' fill='#e4dccf'/><path d='M579 129 l10 10 M589 129 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<circle cx='702' cy='134' r='13' fill='#e4dccf'/><path d='M697 129 l10 10 M707 129 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<circle cx='821' cy='134' r='13' fill='#e4dccf'/><path d='M816 129 l10 10 M826 129 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<rect x='12' y='164' width='876' height='48' rx='10' fill='#f3ebe0'/>
+<rect x='12' y='164' width='6' height='48' rx='3' fill='#c97b3d'/>
+<text x='32' y='193.0' font-size='15' font-weight='700' fill='#3b2f25'>Borrower</text>
+<circle cx='229' cy='188' r='13' fill='#2e9e5b'/><path d='M223 188 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='348' cy='188' r='13' fill='#2e9e5b'/><path d='M342 188 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='466' cy='188' r='13' fill='#2e9e5b'/><path d='M460 188 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='584' cy='188' r='13' fill='#e4dccf'/><path d='M579 183 l10 10 M589 183 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<circle cx='702' cy='188' r='13' fill='#e4dccf'/><path d='M697 183 l10 10 M707 183 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<circle cx='821' cy='188' r='13' fill='#e4dccf'/><path d='M816 183 l10 10 M826 183 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<rect x='12' y='218' width='876' height='48' rx='10' fill='#fff'/>
+<rect x='12' y='218' width='6' height='48' rx='3' fill='#a35f2c'/>
+<text x='32' y='247.0' font-size='15' font-weight='700' fill='#3b2f25'>Normal</text>
+<circle cx='229' cy='242' r='13' fill='#2e9e5b'/><path d='M223 242 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='348' cy='242' r='13' fill='#2e9e5b'/><path d='M342 242 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='466' cy='242' r='13' fill='#2e9e5b'/><path d='M460 242 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='584' cy='242' r='13' fill='#2e9e5b'/><path d='M578 242 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='702' cy='242' r='13' fill='#e4dccf'/><path d='M697 237 l10 10 M707 237 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<circle cx='821' cy='242' r='13' fill='#e4dccf'/><path d='M816 237 l10 10 M826 237 l-10 10' stroke='#9b8c7b' stroke-width='2.5' fill='none' stroke-linecap='round'/>
+<rect x='12' y='272' width='876' height='48' rx='10' fill='#f3ebe0'/>
+<rect x='12' y='272' width='6' height='48' rx='3' fill='#6d3f1c'/>
+<text x='32' y='301.0' font-size='15' font-weight='700' fill='#3b2f25'>Admin</text>
+<circle cx='229' cy='296' r='13' fill='#2e9e5b'/><path d='M223 296 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='348' cy='296' r='13' fill='#2e9e5b'/><path d='M342 296 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='466' cy='296' r='13' fill='#2e9e5b'/><path d='M460 296 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='584' cy='296' r='13' fill='#2e9e5b'/><path d='M578 296 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='702' cy='296' r='13' fill='#2e9e5b'/><path d='M696 296 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='821' cy='296' r='13' fill='#2e9e5b'/><path d='M815 296 l4.5 5 l8 -10' stroke='#fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+</svg>

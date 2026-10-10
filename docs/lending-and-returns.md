@@ -17,6 +17,10 @@ While a copy is Booked, it shows up:
 - On the customer's expanded row, in their list of borrowed books.
 - In the **Booked books** total on the [Dashboard](./dashboard).
 
+## Lending to a vault member
+
+A copy can also be lent to a **vault member** — someone in a shared library with the Borrower, Normal or Admin role — instead of a customer. Open the copy in the book's Stocks table, set it to **Booked**, and pick the person under **Booked by**: the list shows your customers and your eligible members together. The member then sees it under **My loans**. See [Sharing a library & roles](./sharing-and-roles#lending-a-book-to-a-vault-member).
+
 ## Returning books
 
 When a copy comes back, use the **Return books** button — available on the [Dashboard](./dashboard), the [Customers](./customers-and-groups) page, and the Loans page itself.

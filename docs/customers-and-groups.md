@@ -2,6 +2,8 @@
 
 ![The Customers page](/screenshots/customers.png)
 
+> **Tip:** Customers are just names you keep. If the person already belongs to your library as a [vault member](./sharing-and-roles#lending-a-book-to-a-vault-member), you don't need to add them here — they appear in the borrower list on their own. Borrower and Read-only accounts don't see this page at all.
+
 The **Customers** page manages the people who can borrow books, and lets you organize them into groups (for example, by class, grade, or department). This page — along with [Loans](./lending-and-returns) — only appears once **Leasing** is turned on in [Settings](./settings#features).
 
 ## Customers tab

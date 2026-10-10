@@ -2,6 +2,8 @@
 
 ![La página de Clientes](/screenshots/customers.png)
 
+> **Consejo:** Los clientes son solo nombres que tú mantienes. Si la persona ya pertenece a tu biblioteca como [miembro](./sharing-and-roles#prestar-un-libro-a-un-miembro-de-la-biblioteca), no hace falta añadirla aquí — aparece sola en la lista de prestatarios. Las cuentas Borrower y Solo lectura no ven esta página.
+
 La página de **Clientes** gestiona a las personas que pueden pedir libros prestados y te permite organizarlas en grupos (por ejemplo, por clase, curso o departamento). Esta página — junto con [Préstamos](./lending-and-returns) — solo aparece una vez que activas **Préstamos** en [Configuración](./settings#funciones).
 
 ## Pestaña Clientes

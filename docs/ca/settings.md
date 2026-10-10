@@ -22,6 +22,10 @@ En seleccionar un tema, s'aplica a l'instant. Just a sota, l'interruptor **Menú
 
 L'interruptor **Préstecs** activa les pàgines de **Préstecs** i **Clients** (i les seves entrades al menú lateral) — desactivat per defecte per als comptes que només fan seguiment d'una col·lecció personal. Tornar-lo a desactivar amaga totes dues pàgines; no elimina cap préstec o client existent. Igual que el tema, aquest interruptor s'aplica a l'instant — no depèn del botó **Desar** de més avall.
 
+## Biblioteques
+
+Una **biblioteca** és un espai que es pot compartir amb altres persones. La targeta **Biblioteques** mostra totes les biblioteques a les quals pertanys — fes clic a **Canvia-hi** per treballar en una altra, a **Gestiona** per veure'n els membres i l'enllaç d'invitació, o a **Nova biblioteca** per crear-ne una altra. Consulta [Compartir una biblioteca i rols](./sharing-and-roles) per convidar persones i saber què pot fer cada rol.
+
 ## Idioma i regió
 
 Tria el teu **idioma** i **regió** preferits per a la interfície de l'aplicació.

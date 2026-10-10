@@ -17,6 +17,10 @@ Mientras un ejemplar está Reservado, aparece:
 - En la fila expandida del cliente, en su lista de libros prestados.
 - En el total de **Libros reservados** del [Panel de control](./dashboard).
 
+## Prestar a un miembro de la biblioteca
+
+Un ejemplar también se puede prestar a un **miembro de la biblioteca** — alguien de una biblioteca compartida con el rol Borrower, Normal o Admin — en lugar de a un cliente. Abre el ejemplar en la tabla de Stock del libro, ponlo como **Reservado** y elige a la persona en **Reservado por**: la lista muestra juntos a tus clientes y a los miembros que pueden pedir prestado. El miembro lo verá entonces en **Mis préstamos**. Consulta [Compartir una biblioteca y roles](./sharing-and-roles#prestar-un-libro-a-un-miembro-de-la-biblioteca).
+
 ## Devolver libros
 
 Cuando un ejemplar vuelve, usa el botón **Devolver libros** — disponible en el [Panel de control](./dashboard), en la página de [Clientes](./customers-and-groups) y en la propia página de Préstamos.

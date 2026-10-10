@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 300' width='900' font-family='Inter,Segoe UI,Helvetica,Arial,sans-serif' role='img' aria-label='Due tipi di richiedente'>
+<defs><marker id='a' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto-start-reverse'><path d='M0 0 L10 5 L0 10 z' fill='#a35f2c'/></marker></defs>
+<rect width='900' height='300' rx='14' fill='#faf6f0'/>
+<text x='24' y='38' font-size='20' font-weight='700' fill='#3b2f25'>Due tipi di richiedente</text>
+<rect x='30' y='70' width='250' height='96' rx='12' fill='#fff' stroke='#c97b3d' stroke-width='2'/>
+<text x='155.0' y='100' font-size='16' font-weight='700' text-anchor='middle' fill='#3b2f25'>Cliente</text>
+<text x='155.0' y='124' font-size='12' text-anchor='middle' fill='#6b5b4b'>Un nome che aggiungi tu,</text>
+<text x='155.0' y='140' font-size='12' text-anchor='middle' fill='#6b5b4b'>nessun account necessario</text>
+<rect x='30' y='186' width='250' height='96' rx='12' fill='#fff' stroke='#2e9e5b' stroke-width='2'/>
+<text x='155.0' y='216' font-size='16' font-weight='700' text-anchor='middle' fill='#3b2f25'>Membro della biblioteca</text>
+<text x='155.0' y='240' font-size='12' text-anchor='middle' fill='#6b5b4b'>Qualcuno della tua biblioteca con il</text>
+<text x='155.0' y='256' font-size='12' text-anchor='middle' fill='#6b5b4b'>ruolo Borrower, Normal o Admin</text>
+<path d='M280 118 C 330 118, 330 150, 350 150' stroke='#a35f2c' stroke-width='2.5' fill='none' marker-end='url(#a)'/>
+<path d='M280 234 C 330 234, 330 170, 350 170' stroke='#a35f2c' stroke-width='2.5' fill='none' marker-end='url(#a)'/>
+<rect x='360' y='110' width='230' height='100' rx='12' fill='#f5e3d0' stroke='#a35f2c' stroke-width='2'/>
+<text x='475.0' y='140' font-size='16' font-weight='700' text-anchor='middle' fill='#3b2f25'>Copia prenotata</text>
+<text x='475.0' y='164' font-size='12' text-anchor='middle' fill='#6b5b4b'>un richiedente per copia</text>
+<path d='M590 160 L640 160' stroke='#a35f2c' stroke-width='2.5' fill='none' marker-end='url(#a)'/>
+<rect x='650' y='110' width='220' height='100' rx='12' fill='#fff' stroke='#6d3f1c' stroke-width='2'/>
+<text x='760.0' y='140' font-size='16' font-weight='700' text-anchor='middle' fill='#3b2f25'>Storico dei prestiti</text>
+<text x='760.0' y='164' font-size='12' text-anchor='middle' fill='#6b5b4b'>conservato dopo la restituzione</text>
+<text x='315' y='62' font-size='12' fill='#9b8c7b' text-anchor='middle'>Selettore del richiedente</text>
+</svg>

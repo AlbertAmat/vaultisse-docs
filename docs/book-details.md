@@ -39,6 +39,8 @@ Click the **Reading status** button next to Edit, in the top-right corner, to op
 - **Read** — you've finished it.
 - **Clear** — remove the status entirely (only shown once a status is set).
 
+Your reading status is **personal**: in a shared library everyone keeps their own, so changing it doesn't affect anyone else. It is available to every role, including Borrower and Read-only (see [Sharing a library & roles](./sharing-and-roles#reading-status-is-personal)).
+
 Picking an option applies it right away — no need to click Edit or Save first. The current status also shows up as a field on the book's information, and feeds the [Dashboard](./dashboard)'s reading widgets and the [Library filters](./searching-the-library#filtering).
 
 ## Understanding stock
@@ -52,7 +54,9 @@ A book title can exist in your catalog with **zero, one, or many physical copies
   - 🟢 **Available** — on the shelf, ready to be borrowed.
   - ⚪ **Not available** — temporarily out of circulation.
   - 🟠 **Damage** — damaged and not lendable.
-- **Booked by** — the customer currently holding that copy, shown only when Leasing is enabled.
+- **Booked by** — the customer or [vault member](./sharing-and-roles#lending-a-book-to-a-vault-member) currently holding that copy, shown only when Leasing is enabled.
+
+> **Note:** Adding, editing and deleting books and copies is for the Normal and Admin roles. Borrower and Read-only accounts see the page read-only — see [Sharing a library & roles](./sharing-and-roles#roles).
 
 ## Adding a copy
 

@@ -39,6 +39,8 @@ Clicca sul pulsante **Stato di lettura**, accanto a Modifica, nell'angolo in alt
 - **Letto** — lo hai finito.
 - **Cancella** — rimuove completamente lo stato (visibile solo quando ne è già impostato uno).
 
+Il tuo stato di lettura è **personale**: in una biblioteca condivisa ognuno ha il proprio, quindi cambiarlo non influisce su nessun altro. È disponibile per tutti i ruoli, compresi Borrower e Sola lettura (vedi [Condividere una biblioteca e ruoli](./sharing-and-roles#lo-stato-di-lettura-e-personale)).
+
 Scegliere un'opzione la applica subito — non serve entrare in Modifica né salvare. Lo stato attuale compare anche come campo nelle informazioni del libro, e alimenta i widget di lettura della [Dashboard](./dashboard) e i [filtri della Libreria](./searching-the-library#filtri).
 
 ## Capire lo stock
@@ -52,7 +54,9 @@ Un titolo può esistere nel tuo catalogo con **zero, una o più copie fisiche**.
   - 🟢 **Disponibile** — sullo scaffale, pronto per essere preso in prestito.
   - ⚪ **Non disponibile** — temporaneamente fuori circolazione.
   - 🟠 **Danneggiato** — danneggiato e non prestabile.
-- **Prenotato da** — il cliente che attualmente ha quella copia, mostrato solo quando Prestiti è attivo.
+- **Prenotato da** — il cliente o [membro della biblioteca](./sharing-and-roles#prestare-un-libro-a-un-membro-della-biblioteca) che attualmente ha quella copia, mostrato solo quando Prestiti è attivo.
+
+> **Nota:** Aggiungere, modificare ed eliminare libri e copie è compito dei ruoli Normal e Admin. Gli account Borrower e Sola lettura vedono la pagina in sola lettura — vedi [Condividere una biblioteca e ruoli](./sharing-and-roles#ruoli).
 
 ## Aggiungere una copia
 
