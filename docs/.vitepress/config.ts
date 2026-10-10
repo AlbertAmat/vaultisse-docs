@@ -10,6 +10,10 @@ function sidebarItems(items: [title: string, slug: string][]): DefaultTheme.Side
 
 // Version, newest first - matches the `{#slug}` anchor on each heading in docs/releases.md.
 const RELEASES: [version: string, slug: string][] = [
+    ["v1.3.4", "v1-3-4"],
+    ["v1.3.3", "v1-3-3"],
+    ["v1.3.2", "v1-3-2"],
+    ["v1.3.1", "v1-3-1"],
     ["v1.3.0", "v1-3-0"],
     ["v1.2.4", "v1-2-4"],
     ["v1.2.3", "v1-2-3"],

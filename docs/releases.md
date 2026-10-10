@@ -4,6 +4,50 @@ Everything that's shipped in Vaultisse, newest first. Vaultisse started life as 
 the rename happened during the [v1.1.0](#v1-1-0) release, and this page uses the current name
 throughout, even for changes that shipped before it.
 
+## v1.3.4 — 2026-10-10 {#v1-3-4}
+
+**Borrowers.** Shared libraries can now be used by people who only *borrow* from them. See
+[Sharing a library & roles](./sharing-and-roles).
+
+- **Lend to vault members.** A copy can be lent to a member of your vault (Borrower, Normal or Admin
+  role), not only to a customer. The **Booked by** list in the stock dialog shows both.
+- **A browse-only app for Borrower and Read-only roles.** They see the library, locations, categories
+  and authors, but the Add, Import, Edit and Delete buttons, the stock editor, cover upload and the
+  print queue are hidden. The Customers and Loans management pages are off limits too.
+- **My loans.** A new page for members who can borrow, with a **Loans** tab for the books they have
+  right now and a **Loan history** tab with everything they've ever borrowed.
+- **Reading status is now personal.** Each member of a shared library has their own *Want to read*,
+  *Currently reading* and *Read* shelves, and every role can use them. The Library filters, counters
+  and Dashboard shelves show your own list. Existing statuses were handed to each library's admins
+  on upgrade.
+- **Loan history follows renames.** Loans now point at the customer or member instead of copying
+  their name, so a rename shows up everywhere. Deleting a customer or an account deletes their loan
+  history.
+- **Stricter permissions.** Listing customers and everyone's loans, and lending or returning books
+  through the Customers page, now require the Normal or Admin role — previously a Borrower could.
+  Borrowers no longer receive other people's customer or loan details.
+- The new screens are translated into all six languages.
+- Groundwork for region-specific ISBN lookups (German DNB, Spanish BNE, Italian SBN) — not yet
+  switched on in the app. The Docker image now includes the YAZ Z39.50 client these lookups use.
+
+## v1.3.3 — 2026-10-05 {#v1-3-3}
+
+- Added the `MAX_JSON_BODY_PARSE` and `MAX_URLENCODED_BODY_PARSE` settings so self-hosters can raise
+  the maximum request size, fixing "Payload Too Large" errors on big requests.
+
+## v1.3.2 — 2026-09-28 {#v1-3-2}
+
+- Added **French** and **German** translations of the whole app, selectable alongside English,
+  Spanish, Catalan and Italian.
+- Added a `REGISTRATION_ENABLED` setting (on by default) to turn off sign-ups once everyone who needs
+  an account has one.
+
+## v1.3.1 — 2026-09-26 {#v1-3-1}
+
+- **Security:** vault roles are now enforced by the server. Before, a Read-only member could still
+  create, edit or delete things by calling the API directly, even though their role said otherwise.
+- Fixed two-factor sign-in rejecting valid authenticator codes entered a few seconds late.
+
 ## v1.3.0 — 2026-09-26 {#v1-3-0}
 
 **Library sharing.** The headline feature of this release: a library ("vault") can now be shared
