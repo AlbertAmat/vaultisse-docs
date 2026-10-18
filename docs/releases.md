@@ -4,6 +4,47 @@ Everything that's shipped in Vaultisse, newest first. Vaultisse started life as 
 the rename happened during the [v1.1.0](#v1-1-0) release, and this page uses the current name
 throughout, even for changes that shipped before it.
 
+## v1.3.6 — 2026-10-18 {#v1-3-6}
+
+**Roles from SSO groups, per member.** The group mapping that arrived in v1.3.5 is reworked so a vault
+admin decides, member by member, whether a role follows the identity provider. See
+[Sharing a library & roles](./sharing-and-roles#roles-from-sso-groups).
+
+- **A new role option: Based on SSO groups.** In a vault's member list, a person who has signed in
+  with SSO can be set to follow their groups instead of a fixed role. At each SSO login they get the
+  highest role their groups map to, and a pending request is accepted at the same time. A person
+  with no mapped group keeps the role they have. Choosing a role by hand switches them back to manual.
+- **Works across vaults.** Each vault decides per member, and personal libraries are never touched.
+- **`OIDC_GROUP_VAULT_ID` is gone.** Only `OIDC_GROUP_ROLES` (and `OIDC_GROUPS_CLAIM`) remain. Remove
+  `OIDC_GROUP_VAULT_ID` from your `.env`; members are no longer synced automatically, a vault admin
+  opts them in. See [Single sign-on](./self-hosting/single-sign-on#_3-roles-from-groups-optional).
+- Group changes that would leave a vault without an admin, or make someone a borrower in a vault
+  without loans, are skipped and logged, and the login still succeeds.
+- The database upgrade (a `role_source` column on vault members) is applied automatically on start.
+
+## v1.3.5 — 2026-10-18 {#v1-3-5}
+
+**An OPDS feed, regional book lookups, and a first version of SSO group roles.**
+
+- **OPDS feed for ebook apps.** In **Settings** you can create a private feed link, and reader apps
+  such as KOReader can browse and download the ebook files of your active vault. The link is shown
+  only once when you create it, you can replace it with a new one, or disable it. Anyone with the link
+  can read the library, so keep it private. Both OPDS 1.2 and 2.0 are offered.
+- **Regional ISBN lookups are on.** Adding a book by ISBN now asks the national library for the ISBN's
+  region first (Spain, Italy or Germany), together with Open Library and Google Books at the same
+  time, and merges the answers in that order of priority. If the German National Library's MARC 21 answer
+  fails, it falls back to its Dublin Core one. This enables the groundwork shipped in v1.3.4.
+- **Loans are now a vault setting.** The Loans switch moved from each person's Settings to the
+  vault's settings, so it applies to every member. It can't be switched off while the vault has
+  borrower members or books on loan. Vaults already using loans keep them on.
+- **SSO group roles, first version.** A new `OIDC_GROUP_ROLES` setting maps identity-provider groups
+  to roles in one shared vault chosen with `OIDC_GROUP_VAULT_ID`. This was replaced by the per-member
+  option in [v1.3.6](#v1-3-6).
+- **Server log shows why a sign-in failed.** Locked 2FA, a wrong 2FA code, a wrong password and an
+  unknown account are written to the log, and so are other errors the server prints, which helps
+  when you [troubleshoot](./self-hosting/troubleshooting).
+- Updated the app's libraries, including Vue and Vuetify, and fixed some styles.
+
 ## v1.3.4 — 2026-10-10 {#v1-3-4}
 
 **Borrowers.** Shared libraries can now be used by people who only *borrow* from them. See
