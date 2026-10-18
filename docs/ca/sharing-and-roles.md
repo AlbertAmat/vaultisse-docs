@@ -33,6 +33,31 @@ Hi ha quatre rols. Tria el més baix que cobreixi el que la persona necessita.
 - **Normal** — ajuda a portar la biblioteca: afegeix i edita llibres, gestiona clients i s'encarrega dels préstecs.
 - **Admin** — tot, inclòs qui forma part de la biblioteca.
 
+## Rols segons els grups SSO
+
+Si la vostra organització inicia sessió amb inici de sessió únic (SSO) i qui administra el servidor de Vaultisse ha configurat la correspondència de grups, podeu deixar que els **grups de la persona al proveïdor d'identitat** decideixin el seu rol, en lloc de triar-lo a mà. És útil quan aquestes persones ja pertanyen a grups com `familia-usuaris` o `biblioteca-admins`.
+
+![La llista de Membres: el rol de Joan Ferrer es basa en els grups SSO, i apareix com a "Borrower · Segons els grups SSO"](/screenshots/vault-members-sso.png)
+
+1. Obre el diàleg **Gestiona** de la biblioteca, com a [Convidar persones](#convidar-persones).
+2. A la llista de **Membres**, obre el menú de rol de la persona.
+3. Tria **Segons els grups SSO** al final de la llista.
+
+![El menú de rols amb l'opció addicional Segons els grups SSO](/screenshots/vault-member-role-picker.png)
+
+A partir d'aquell moment, cada cop que la persona iniciï sessió amb SSO, el seu rol en aquesta biblioteca s'ajusta al rol més alt que li corresponguin els seus grups, i una sol·licitud pendent s'accepta alhora. La línia del membre mostra el seu rol actual seguit de **Segons els grups SSO**.
+
+Convé saber que:
+
+- L'opció només apareix si el servidor té configurada la correspondència de grups **i** la persona ha iniciat sessió amb SSO almenys un cop. Qui només fa servir contrasenya no la veu mai.
+- No canvia res en el moment de triar-la. El rol s'actualitza en el **proper** inici de sessió SSO de la persona.
+- Si cap dels seus grups correspon a un rol, conserva el que té. Ningú no és expulsat ni rebaixat per no tenir un grup.
+- Per recuperar el control, tria qualsevol rol normal del menú. Aquell membre torna a gestionar-se a mà.
+- Cada biblioteca ho decideix per membre, de manera que una mateixa persona pot estar a mà en una biblioteca i per grups SSO en una altra. La seva biblioteca personal mai no es toca.
+- Un grup que correspongui a **Borrower** no es pot aplicar en una biblioteca amb els [préstecs](./lending-and-returns) desactivats, i una biblioteca sempre conserva almenys un Admin. En tots dos casos aquest canvi s'omet.
+
+> **Nota:** Quin grup dona quin rol ho configura qui instal·la Vaultisse. Consulta [Inici de sessió únic](./self-hosting/single-sign-on) a la guia d'autoallotjament.
+
 ## Què veu un Borrower
 
 Un Borrower té una versió de Vaultisse només de consulta:

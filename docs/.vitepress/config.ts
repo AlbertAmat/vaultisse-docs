@@ -35,6 +35,16 @@ function releasesSidebar(text: string): DefaultTheme.SidebarItem[] {
     return [{ text, items: RELEASES.map(([version, slug]) => ({ text: version, link: `/releases#${slug}` })) }];
 }
 
+const SELF_HOSTING_EN: [string, string][] = [
+    ["Overview", "self-hosting/"],
+    ["Installation", "self-hosting/installation"],
+    ["Configuration reference", "self-hosting/configuration"],
+    ["Reverse proxy & HTTPS", "self-hosting/reverse-proxy"],
+    ["Single sign-on", "self-hosting/single-sign-on"],
+    ["Updating & backups", "self-hosting/updating-and-backups"],
+    ["Troubleshooting", "self-hosting/troubleshooting"],
+];
+
 const SECTIONS_EN: [string, string][] = [
     ["Getting started", "getting-started"],
     ["Dashboard", "dashboard"],
@@ -49,6 +59,16 @@ const SECTIONS_EN: [string, string][] = [
     ["Categories & authors", "categories-and-authors"],
     ["Locations", "locations"],
     ["Account settings", "settings"],
+];
+
+const SELF_HOSTING_ES: [string, string][] = [
+    ["Resumen", "self-hosting/"],
+    ["Instalación", "self-hosting/installation"],
+    ["Referencia de configuración", "self-hosting/configuration"],
+    ["Proxy inverso y HTTPS", "self-hosting/reverse-proxy"],
+    ["Inicio de sesión único", "self-hosting/single-sign-on"],
+    ["Actualizaciones y copias de seguridad", "self-hosting/updating-and-backups"],
+    ["Solución de problemas", "self-hosting/troubleshooting"],
 ];
 
 const SECTIONS_ES: [string, string][] = [
@@ -67,6 +87,16 @@ const SECTIONS_ES: [string, string][] = [
     ["Configuración de la cuenta", "settings"],
 ];
 
+const SELF_HOSTING_CA: [string, string][] = [
+    ["Resum", "self-hosting/"],
+    ["Instal·lació", "self-hosting/installation"],
+    ["Referència de configuració", "self-hosting/configuration"],
+    ["Servidor intermediari invers i HTTPS", "self-hosting/reverse-proxy"],
+    ["Inici de sessió únic", "self-hosting/single-sign-on"],
+    ["Actualitzacions i còpies de seguretat", "self-hosting/updating-and-backups"],
+    ["Resolució de problemes", "self-hosting/troubleshooting"],
+];
+
 const SECTIONS_CA: [string, string][] = [
     ["Primers passos", "getting-started"],
     ["Tauler de control", "dashboard"],
@@ -81,6 +111,16 @@ const SECTIONS_CA: [string, string][] = [
     ["Categories i autors", "categories-and-authors"],
     ["Ubicacions", "locations"],
     ["Configuració del compte", "settings"],
+];
+
+const SELF_HOSTING_IT: [string, string][] = [
+    ["Panoramica", "self-hosting/"],
+    ["Installazione", "self-hosting/installation"],
+    ["Riferimento della configurazione", "self-hosting/configuration"],
+    ["Reverse proxy e HTTPS", "self-hosting/reverse-proxy"],
+    ["Single sign-on", "self-hosting/single-sign-on"],
+    ["Aggiornamenti e backup", "self-hosting/updating-and-backups"],
+    ["Risoluzione dei problemi", "self-hosting/troubleshooting"],
 ];
 
 const SECTIONS_IT: [string, string][] = [
@@ -152,11 +192,13 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: "Guide", link: "/getting-started" },
+                    { text: "Self-hosting", link: "/self-hosting/" },
                     { text: "Releases", link: "/releases" },
                     { text: "Vaultisse app", link: APP_URL },
                 ],
                 sidebar: {
                     "/releases": releasesSidebar("Releases"),
+                    "/self-hosting/": [{ text: "Self-hosting", items: sidebarItems(SELF_HOSTING_EN) }],
                     "/": [{ text: "Documentation", items: sidebarItems(SECTIONS_EN) }],
                 },
                 outlineTitle: "On this page",
@@ -176,9 +218,13 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: "Guía", link: "/es/getting-started" },
+                    { text: "Autoalojamiento", link: "/es/self-hosting/" },
                     { text: "Aplicación Vaultisse", link: APP_URL },
                 ],
-                sidebar: [{ text: "Documentación", items: sidebarItems(SECTIONS_ES) }],
+                sidebar: {
+                    "/es/self-hosting/": [{ text: "Autoalojamiento", items: sidebarItems(SELF_HOSTING_ES) }],
+                    "/es/": [{ text: "Documentación", items: sidebarItems(SECTIONS_ES) }],
+                },
                 outlineTitle: "En esta página",
                 docFooter: { prev: "Página anterior", next: "Página siguiente" },
                 darkModeSwitchLabel: "Apariencia",
@@ -196,9 +242,13 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: "Guia", link: "/ca/getting-started" },
+                    { text: "Autoallotjament", link: "/ca/self-hosting/" },
                     { text: "Aplicació Vaultisse", link: APP_URL },
                 ],
-                sidebar: [{ text: "Documentació", items: sidebarItems(SECTIONS_CA) }],
+                sidebar: {
+                    "/ca/self-hosting/": [{ text: "Autoallotjament", items: sidebarItems(SELF_HOSTING_CA) }],
+                    "/ca/": [{ text: "Documentació", items: sidebarItems(SECTIONS_CA) }],
+                },
                 outlineTitle: "En aquesta pàgina",
                 docFooter: { prev: "Pàgina anterior", next: "Pàgina següent" },
                 darkModeSwitchLabel: "Aparença",
@@ -216,9 +266,13 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: "Guida", link: "/it/getting-started" },
+                    { text: "Auto-hosting", link: "/it/self-hosting/" },
                     { text: "App Vaultisse", link: APP_URL },
                 ],
-                sidebar: [{ text: "Documentazione", items: sidebarItems(SECTIONS_IT) }],
+                sidebar: {
+                    "/it/self-hosting/": [{ text: "Auto-hosting", items: sidebarItems(SELF_HOSTING_IT) }],
+                    "/it/": [{ text: "Documentazione", items: sidebarItems(SECTIONS_IT) }],
+                },
                 outlineTitle: "In questa pagina",
                 docFooter: { prev: "Pagina precedente", next: "Pagina successiva" },
                 darkModeSwitchLabel: "Aspetto",

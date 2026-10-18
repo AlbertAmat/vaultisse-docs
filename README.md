@@ -16,6 +16,7 @@ docs/
 ├── index.md              # English home page
 ├── getting-started.md    # English sections (default locale, served at /)
 ├── ...
+├── self-hosting/          # Install & configure guide for server owners (English only for now)
 ├── es/                    # Spanish sections, served at /es/
 ├── ca/                    # Catalan sections, served at /ca/
 └── it/                    # Italian sections, served at /it/

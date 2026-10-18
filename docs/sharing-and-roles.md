@@ -33,6 +33,31 @@ There are four roles. Pick the lowest one that does the job.
 - **Normal** — helps run the library: adds and edits books, manages customers and handles lending.
 - **Admin** — everything, including who is in the vault.
 
+## Roles from SSO groups
+
+If your organization signs people in with single sign-on (SSO), and whoever runs the Vaultisse server has set up the group mapping, you can let a person's **groups at the identity provider** decide their role, instead of picking it by hand. This is handy when the same people already belong to groups such as `family-users` or `library-admins`.
+
+![The Members list: Joan Ferrer's role is based on SSO groups, shown as "Borrower · Based on SSO groups"](/screenshots/vault-members-sso.png)
+
+1. Open the vault's **Manage** dialog, as in [Inviting people](#inviting-people).
+2. In the **Members** list, open the role menu of the person.
+3. Choose **Based on SSO groups** at the end of the list.
+
+![The role menu with the extra option Based on SSO groups](/screenshots/vault-member-role-picker.png)
+
+From then on, every time that person signs in with SSO, their role in this vault is set to the highest role their groups map to, and a pending request is accepted at the same time. The member's line shows their current role followed by **Based on SSO groups**.
+
+A few things to know:
+
+- The option only appears when the server has the group mapping configured **and** the person has signed in with SSO at least once. A member who only uses a password never sees it.
+- Nothing changes at the moment you choose it. The role is updated at the person's **next** SSO login.
+- If none of the person's groups is mapped to a role, they simply keep the role they have. Nobody is removed or demoted because of a missing group.
+- To take back control, choose any normal role from the menu. That member is then managed by hand again.
+- Each vault decides this per member, so the same person can be set by hand in one vault and by SSO groups in another. Their personal vault is never touched.
+- A group that maps to **Borrower** can't be applied in a vault that has [loans](./lending-and-returns) turned off, and a vault always keeps at least one Admin. In both cases that change is skipped.
+
+> **Note:** Which group gives which role is configured by the person who installs Vaultisse. See [Single sign-on](./self-hosting/single-sign-on) in the self-hosting guide.
+
 ## What a Borrower sees
 
 A Borrower gets a browse-only version of Vaultisse:

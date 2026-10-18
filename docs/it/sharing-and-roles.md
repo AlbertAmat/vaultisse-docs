@@ -33,6 +33,31 @@ Ci sono quattro ruoli. Scegli il più basso che copra ciò di cui la persona ha 
 - **Normal** — aiuta a gestire la biblioteca: aggiunge e modifica libri, gestisce i clienti e si occupa dei prestiti.
 - **Admin** — tutto, compreso chi fa parte della biblioteca.
 
+## Ruoli in base ai gruppi SSO
+
+Se la tua organizzazione accede con il single sign-on (SSO) e chi gestisce il server di Vaultisse ha configurato la corrispondenza dei gruppi, puoi lasciare che siano i **gruppi della persona presso il provider di identità** a decidere il suo ruolo, invece di sceglierlo a mano. È comodo quando le stesse persone appartengono già a gruppi come `famiglia-utenti` o `biblioteca-admin`.
+
+![L'elenco dei Membri: il ruolo di Joan Ferrer si basa sui gruppi SSO e compare come "Borrower · In base ai gruppi SSO"](/screenshots/vault-members-sso.png)
+
+1. Apri la finestra **Gestisci** della biblioteca, come in [Invitare persone](#invitare-persone).
+2. Nell'elenco dei **Membri**, apri il menu del ruolo della persona.
+3. Scegli **In base ai gruppi SSO** in fondo all'elenco.
+
+![Il menu dei ruoli con l'opzione aggiuntiva In base ai gruppi SSO](/screenshots/vault-member-role-picker.png)
+
+Da quel momento, ogni volta che la persona accede con SSO, il suo ruolo in questa biblioteca viene impostato sul ruolo più alto a cui corrispondono i suoi gruppi, e una richiesta in sospeso viene accettata contemporaneamente. La riga del membro mostra il ruolo attuale seguito da **In base ai gruppi SSO**.
+
+Da sapere:
+
+- L'opzione compare solo se il server ha configurato la corrispondenza dei gruppi **e** la persona ha effettuato l'accesso con SSO almeno una volta. Chi usa solo la password non la vede mai.
+- Non cambia nulla nel momento in cui la scegli. Il ruolo viene aggiornato al **prossimo** accesso SSO della persona.
+- Se nessuno dei suoi gruppi corrisponde a un ruolo, la persona mantiene quello che ha. Nessuno viene rimosso o retrocesso per l'assenza di un gruppo.
+- Per riprendere il controllo, scegli un ruolo normale dal menu. Quel membro torna a essere gestito a mano.
+- Ogni biblioteca lo decide per singolo membro, quindi la stessa persona può essere impostata a mano in una biblioteca e dai gruppi SSO in un'altra. La sua biblioteca personale non viene mai toccata.
+- Un gruppo che corrisponde a **Borrower** non può essere applicato in una biblioteca con i [prestiti](./lending-and-returns) disattivati, e una biblioteca mantiene sempre almeno un Admin. In entrambi i casi quella modifica viene saltata.
+
+> **Nota:** Quale gruppo dà quale ruolo lo configura chi installa Vaultisse. Vedi [Single sign-on](./self-hosting/single-sign-on) nella guida all'auto-hosting.
+
 ## Cosa vede un Borrower
 
 Un Borrower ha una versione di Vaultisse di sola consultazione:
